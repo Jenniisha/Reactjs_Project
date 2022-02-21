@@ -1,0 +1,577 @@
+2022-02-19 21:19:25.644 INFO  Connected to the mongodb Database 
+2022-02-19 21:35:27.271 INFO  Connected to the mongodb Database 
+2022-02-19 21:38:16.889 INFO  Connected to the mongodb Database 
+2022-02-20 12:33:21.636 INFO  Listening to Port 8000 
+2022-02-20 12:33:21.757 INFO  Connected to the mongodb Database 
+2022-02-20 12:33:24.869 INFO  Listening to Port 8000 
+2022-02-20 12:33:24.909 INFO  Connected to the mongodb Database 
+2022-02-20 12:34:29.392 INFO  specialityParam 
+2022-02-20 12:34:29.441 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 12:34:29.888 INFO  specialityParam 
+2022-02-20 12:34:29.895 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 12:34:30.192 INFO  specialityParam 
+2022-02-20 12:34:30.203 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 12:34:32.936 INFO  specialityParam 
+2022-02-20 12:34:32.947 INFO  [{"_id":"620f313ba9bbd6d7d7510e50","doctorNumber":1,"name":"Dr John","qualification":"MBBS","speciality":"Orthodontist"},{"_id":"620fa27fb8349b6735b46013","doctorNumber":8,"name":"Dr Ashok","qualification":"MBBS","speciality":"Orthodontist","__v":0},{"_id":"620fa4c7b8349b6735b46019","doctorNumber":9,"name":"Dr Arun","qualification":"MBBS","speciality":"Orthodontist","__v":0}] 
+2022-02-20 12:34:33.443 INFO  specialityParam 
+2022-02-20 12:34:33.453 INFO  [{"_id":"620f313ba9bbd6d7d7510e50","doctorNumber":1,"name":"Dr John","qualification":"MBBS","speciality":"Orthodontist"},{"_id":"620fa27fb8349b6735b46013","doctorNumber":8,"name":"Dr Ashok","qualification":"MBBS","speciality":"Orthodontist","__v":0},{"_id":"620fa4c7b8349b6735b46019","doctorNumber":9,"name":"Dr Arun","qualification":"MBBS","speciality":"Orthodontist","__v":0}] 
+2022-02-20 12:34:33.649 INFO  specialityParam 
+2022-02-20 12:34:33.659 INFO  [{"_id":"620f313ba9bbd6d7d7510e50","doctorNumber":1,"name":"Dr John","qualification":"MBBS","speciality":"Orthodontist"},{"_id":"620fa27fb8349b6735b46013","doctorNumber":8,"name":"Dr Ashok","qualification":"MBBS","speciality":"Orthodontist","__v":0},{"_id":"620fa4c7b8349b6735b46019","doctorNumber":9,"name":"Dr Arun","qualification":"MBBS","speciality":"Orthodontist","__v":0}] 
+2022-02-20 12:34:33.842 INFO  specialityParam 
+2022-02-20 12:34:33.853 INFO  [{"_id":"620f313ba9bbd6d7d7510e50","doctorNumber":1,"name":"Dr John","qualification":"MBBS","speciality":"Orthodontist"},{"_id":"620fa27fb8349b6735b46013","doctorNumber":8,"name":"Dr Ashok","qualification":"MBBS","speciality":"Orthodontist","__v":0},{"_id":"620fa4c7b8349b6735b46019","doctorNumber":9,"name":"Dr Arun","qualification":"MBBS","speciality":"Orthodontist","__v":0}] 
+2022-02-20 12:34:34.000 INFO  specialityParam 
+2022-02-20 12:34:34.010 INFO  [{"_id":"620f313ba9bbd6d7d7510e50","doctorNumber":1,"name":"Dr John","qualification":"MBBS","speciality":"Orthodontist"},{"_id":"620fa27fb8349b6735b46013","doctorNumber":8,"name":"Dr Ashok","qualification":"MBBS","speciality":"Orthodontist","__v":0},{"_id":"620fa4c7b8349b6735b46019","doctorNumber":9,"name":"Dr Arun","qualification":"MBBS","speciality":"Orthodontist","__v":0}] 
+2022-02-20 12:34:34.220 INFO  specialityParam 
+2022-02-20 12:34:34.229 INFO  [{"_id":"620f313ba9bbd6d7d7510e50","doctorNumber":1,"name":"Dr John","qualification":"MBBS","speciality":"Orthodontist"},{"_id":"620fa27fb8349b6735b46013","doctorNumber":8,"name":"Dr Ashok","qualification":"MBBS","speciality":"Orthodontist","__v":0},{"_id":"620fa4c7b8349b6735b46019","doctorNumber":9,"name":"Dr Arun","qualification":"MBBS","speciality":"Orthodontist","__v":0}] 
+2022-02-20 12:34:36.279 INFO  specialityParam 
+2022-02-20 12:34:36.288 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 12:34:37.272 INFO  specialityParam 
+2022-02-20 12:34:37.280 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 12:34:37.901 INFO  specialityParam 
+2022-02-20 12:34:37.908 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 12:34:38.119 INFO  specialityParam 
+2022-02-20 12:34:38.125 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 12:35:04.145 INFO  Listening to Port 8000 
+2022-02-20 12:35:04.375 INFO  Connected to the mongodb Database 
+2022-02-20 12:35:06.268 INFO  Listening to Port 8000 
+2022-02-20 12:35:06.310 INFO  Connected to the mongodb Database 
+2022-02-20 12:35:17.355 INFO  specialityParam 
+2022-02-20 12:35:17.393 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 12:35:17.798 INFO  specialityParam 
+2022-02-20 12:35:17.812 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 12:35:18.009 INFO  specialityParam 
+2022-02-20 12:35:18.022 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 12:35:18.520 INFO  specialityParam 
+2022-02-20 12:35:18.532 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 12:35:18.690 INFO  specialityParam 
+2022-02-20 12:35:18.701 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 12:35:36.019 INFO  specialityParam 
+2022-02-20 12:35:36.033 INFO  [{"_id":"620f34cfa9bbd6d7d7510e53","doctorNumber":4,"name":"Dr Shaun","qualification":"MD","speciality":"Gastroentrologist"},{"_id":"620f35a8a9bbd6d7d7510e55","doctorNumber":6,"name":"Dr Sharon","qualification":"MBBS","speciality":"Gastroentrologist"}] 
+2022-02-20 12:35:36.680 INFO  specialityParam 
+2022-02-20 12:35:36.697 INFO  [{"_id":"620f34cfa9bbd6d7d7510e53","doctorNumber":4,"name":"Dr Shaun","qualification":"MD","speciality":"Gastroentrologist"},{"_id":"620f35a8a9bbd6d7d7510e55","doctorNumber":6,"name":"Dr Sharon","qualification":"MBBS","speciality":"Gastroentrologist"}] 
+2022-02-20 12:37:40.387 INFO  specialityParam 
+2022-02-20 12:37:40.398 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 12:37:41.181 INFO  specialityParam 
+2022-02-20 12:37:41.192 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 12:37:41.665 INFO  specialityParam 
+2022-02-20 12:37:41.677 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 12:37:41.764 INFO  specialityParam 
+2022-02-20 12:37:41.774 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 12:37:41.934 INFO  specialityParam 
+2022-02-20 12:37:41.944 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 12:37:42.082 INFO  specialityParam 
+2022-02-20 12:37:42.093 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 12:37:42.241 INFO  specialityParam 
+2022-02-20 12:37:42.249 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 12:37:42.425 INFO  specialityParam 
+2022-02-20 12:37:42.434 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 12:37:42.597 INFO  specialityParam 
+2022-02-20 12:37:42.607 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 12:37:42.760 INFO  specialityParam 
+2022-02-20 12:37:42.770 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 12:37:42.931 INFO  specialityParam 
+2022-02-20 12:37:42.944 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 12:37:43.177 INFO  specialityParam 
+2022-02-20 12:37:43.188 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 12:41:04.610 INFO  specialityParam 
+2022-02-20 12:41:04.623 INFO  [] 
+2022-02-20 12:41:11.422 INFO  specialityParam 
+2022-02-20 12:41:11.431 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 12:44:48.966 INFO  specialityParam 
+2022-02-20 12:44:48.980 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 12:44:49.659 INFO  specialityParam 
+2022-02-20 12:44:49.672 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 13:04:08.635 INFO  specialityParam 
+2022-02-20 13:04:08.660 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:04:09.069 INFO  specialityParam 
+2022-02-20 13:04:09.088 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:04:09.258 INFO  specialityParam 
+2022-02-20 13:04:09.269 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:04:09.448 INFO  specialityParam 
+2022-02-20 13:04:09.460 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:04:09.618 INFO  specialityParam 
+2022-02-20 13:04:09.627 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:04:09.805 INFO  specialityParam 
+2022-02-20 13:04:09.814 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:04:09.996 INFO  specialityParam 
+2022-02-20 13:04:10.007 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:04:10.163 INFO  specialityParam 
+2022-02-20 13:04:10.174 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:04:10.352 INFO  specialityParam 
+2022-02-20 13:04:10.360 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:04:10.562 INFO  specialityParam 
+2022-02-20 13:04:10.570 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:04:10.772 INFO  specialityParam 
+2022-02-20 13:04:10.780 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:04:10.967 INFO  specialityParam 
+2022-02-20 13:04:10.975 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:04:11.472 INFO  specialityParam 
+2022-02-20 13:04:11.481 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:04:11.781 INFO  specialityParam 
+2022-02-20 13:04:11.793 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:04:11.975 INFO  specialityParam 
+2022-02-20 13:04:11.984 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:04:12.154 INFO  specialityParam 
+2022-02-20 13:04:12.162 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:04:12.337 INFO  specialityParam 
+2022-02-20 13:04:12.345 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:21:35.050 INFO  specialityParam 
+2022-02-20 13:21:35.098 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 13:21:35.292 INFO  specialityParam 
+2022-02-20 13:21:35.302 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 13:21:35.497 INFO  specialityParam 
+2022-02-20 13:21:35.507 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 13:21:35.686 INFO  specialityParam 
+2022-02-20 13:21:35.694 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 13:21:36.020 INFO  specialityParam 
+2022-02-20 13:21:36.029 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 13:21:36.221 INFO  specialityParam 
+2022-02-20 13:21:36.231 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 13:21:36.402 INFO  specialityParam 
+2022-02-20 13:21:36.412 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 13:21:36.593 INFO  specialityParam 
+2022-02-20 13:21:36.601 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 13:21:36.767 INFO  specialityParam 
+2022-02-20 13:21:36.778 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 13:21:36.931 INFO  specialityParam 
+2022-02-20 13:21:36.946 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 13:21:37.109 INFO  specialityParam 
+2022-02-20 13:21:37.120 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 13:21:37.506 INFO  specialityParam 
+2022-02-20 13:21:37.515 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 13:21:41.747 INFO  specialityParam 
+2022-02-20 13:21:41.758 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 13:21:41.860 INFO  specialityParam 
+2022-02-20 13:21:41.870 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 13:21:42.125 INFO  specialityParam 
+2022-02-20 13:21:42.134 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 13:21:42.509 INFO  specialityParam 
+2022-02-20 13:21:42.518 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 13:21:42.715 INFO  specialityParam 
+2022-02-20 13:21:42.725 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 13:21:42.941 INFO  specialityParam 
+2022-02-20 13:21:42.951 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 13:21:43.115 INFO  specialityParam 
+2022-02-20 13:21:43.126 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 13:21:43.317 INFO  specialityParam 
+2022-02-20 13:21:43.327 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 13:21:43.543 INFO  specialityParam 
+2022-02-20 13:21:43.553 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 13:21:43.715 INFO  specialityParam 
+2022-02-20 13:21:43.724 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 13:21:43.917 INFO  specialityParam 
+2022-02-20 13:21:43.927 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 13:21:44.113 INFO  specialityParam 
+2022-02-20 13:21:44.124 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 13:21:44.313 INFO  specialityParam 
+2022-02-20 13:21:44.323 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 13:21:44.497 INFO  specialityParam 
+2022-02-20 13:21:44.506 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 13:21:44.678 INFO  specialityParam 
+2022-02-20 13:21:44.690 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 13:21:45.077 INFO  specialityParam 
+2022-02-20 13:21:45.086 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 13:21:45.288 INFO  specialityParam 
+2022-02-20 13:21:45.298 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 13:21:45.479 INFO  specialityParam 
+2022-02-20 13:21:45.489 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 13:22:32.946 INFO  specialityParam 
+2022-02-20 13:22:32.959 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 13:22:33.389 INFO  specialityParam 
+2022-02-20 13:22:33.398 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 13:22:33.580 INFO  specialityParam 
+2022-02-20 13:22:33.592 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 13:22:33.767 INFO  specialityParam 
+2022-02-20 13:22:33.778 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 13:22:33.925 INFO  specialityParam 
+2022-02-20 13:22:33.936 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 13:22:35.585 INFO  specialityParam 
+2022-02-20 13:22:35.598 INFO  [{"_id":"620f34cfa9bbd6d7d7510e53","doctorNumber":4,"name":"Dr Shaun","qualification":"MD","speciality":"Gastroentrologist"},{"_id":"620f35a8a9bbd6d7d7510e55","doctorNumber":6,"name":"Dr Sharon","qualification":"MBBS","speciality":"Gastroentrologist"}] 
+2022-02-20 13:22:35.909 INFO  specialityParam 
+2022-02-20 13:22:35.921 INFO  [{"_id":"620f34cfa9bbd6d7d7510e53","doctorNumber":4,"name":"Dr Shaun","qualification":"MD","speciality":"Gastroentrologist"},{"_id":"620f35a8a9bbd6d7d7510e55","doctorNumber":6,"name":"Dr Sharon","qualification":"MBBS","speciality":"Gastroentrologist"}] 
+2022-02-20 13:22:36.138 INFO  specialityParam 
+2022-02-20 13:22:36.152 INFO  [{"_id":"620f34cfa9bbd6d7d7510e53","doctorNumber":4,"name":"Dr Shaun","qualification":"MD","speciality":"Gastroentrologist"},{"_id":"620f35a8a9bbd6d7d7510e55","doctorNumber":6,"name":"Dr Sharon","qualification":"MBBS","speciality":"Gastroentrologist"}] 
+2022-02-20 13:22:36.564 INFO  specialityParam 
+2022-02-20 13:22:36.575 INFO  [{"_id":"620f34cfa9bbd6d7d7510e53","doctorNumber":4,"name":"Dr Shaun","qualification":"MD","speciality":"Gastroentrologist"},{"_id":"620f35a8a9bbd6d7d7510e55","doctorNumber":6,"name":"Dr Sharon","qualification":"MBBS","speciality":"Gastroentrologist"}] 
+2022-02-20 13:22:36.752 INFO  specialityParam 
+2022-02-20 13:22:36.764 INFO  [{"_id":"620f34cfa9bbd6d7d7510e53","doctorNumber":4,"name":"Dr Shaun","qualification":"MD","speciality":"Gastroentrologist"},{"_id":"620f35a8a9bbd6d7d7510e55","doctorNumber":6,"name":"Dr Sharon","qualification":"MBBS","speciality":"Gastroentrologist"}] 
+2022-02-20 13:22:36.944 INFO  specialityParam 
+2022-02-20 13:22:36.955 INFO  [{"_id":"620f34cfa9bbd6d7d7510e53","doctorNumber":4,"name":"Dr Shaun","qualification":"MD","speciality":"Gastroentrologist"},{"_id":"620f35a8a9bbd6d7d7510e55","doctorNumber":6,"name":"Dr Sharon","qualification":"MBBS","speciality":"Gastroentrologist"}] 
+2022-02-20 13:22:37.611 INFO  specialityParam 
+2022-02-20 13:22:37.623 INFO  [{"_id":"620f34cfa9bbd6d7d7510e53","doctorNumber":4,"name":"Dr Shaun","qualification":"MD","speciality":"Gastroentrologist"},{"_id":"620f35a8a9bbd6d7d7510e55","doctorNumber":6,"name":"Dr Sharon","qualification":"MBBS","speciality":"Gastroentrologist"}] 
+2022-02-20 13:22:37.797 INFO  specialityParam 
+2022-02-20 13:22:37.811 INFO  [{"_id":"620f34cfa9bbd6d7d7510e53","doctorNumber":4,"name":"Dr Shaun","qualification":"MD","speciality":"Gastroentrologist"},{"_id":"620f35a8a9bbd6d7d7510e55","doctorNumber":6,"name":"Dr Sharon","qualification":"MBBS","speciality":"Gastroentrologist"}] 
+2022-02-20 13:22:37.988 INFO  specialityParam 
+2022-02-20 13:22:37.998 INFO  [{"_id":"620f34cfa9bbd6d7d7510e53","doctorNumber":4,"name":"Dr Shaun","qualification":"MD","speciality":"Gastroentrologist"},{"_id":"620f35a8a9bbd6d7d7510e55","doctorNumber":6,"name":"Dr Sharon","qualification":"MBBS","speciality":"Gastroentrologist"}] 
+2022-02-20 13:22:47.469 INFO  specialityParam 
+2022-02-20 13:22:47.481 INFO  [{"_id":"620f34cfa9bbd6d7d7510e53","doctorNumber":4,"name":"Dr Shaun","qualification":"MD","speciality":"Gastroentrologist"},{"_id":"620f35a8a9bbd6d7d7510e55","doctorNumber":6,"name":"Dr Sharon","qualification":"MBBS","speciality":"Gastroentrologist"}] 
+2022-02-20 13:22:47.703 INFO  specialityParam 
+2022-02-20 13:22:47.713 INFO  [{"_id":"620f34cfa9bbd6d7d7510e53","doctorNumber":4,"name":"Dr Shaun","qualification":"MD","speciality":"Gastroentrologist"},{"_id":"620f35a8a9bbd6d7d7510e55","doctorNumber":6,"name":"Dr Sharon","qualification":"MBBS","speciality":"Gastroentrologist"}] 
+2022-02-20 13:22:47.894 INFO  specialityParam 
+2022-02-20 13:22:47.906 INFO  [{"_id":"620f34cfa9bbd6d7d7510e53","doctorNumber":4,"name":"Dr Shaun","qualification":"MD","speciality":"Gastroentrologist"},{"_id":"620f35a8a9bbd6d7d7510e55","doctorNumber":6,"name":"Dr Sharon","qualification":"MBBS","speciality":"Gastroentrologist"}] 
+2022-02-20 13:22:50.563 INFO  specialityParam 
+2022-02-20 13:22:50.574 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 13:22:50.901 INFO  specialityParam 
+2022-02-20 13:22:50.911 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 13:22:51.105 INFO  specialityParam 
+2022-02-20 13:22:51.117 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 13:22:51.301 INFO  specialityParam 
+2022-02-20 13:22:51.310 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 13:22:51.529 INFO  specialityParam 
+2022-02-20 13:22:51.539 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 13:24:25.374 INFO  specialityParam 
+2022-02-20 13:24:25.385 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:24:25.921 INFO  specialityParam 
+2022-02-20 13:24:25.930 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:24:26.145 INFO  specialityParam 
+2022-02-20 13:24:26.154 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:24:26.338 INFO  specialityParam 
+2022-02-20 13:24:26.350 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:24:26.541 INFO  specialityParam 
+2022-02-20 13:24:26.550 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:24:26.726 INFO  specialityParam 
+2022-02-20 13:24:26.735 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:24:26.901 INFO  specialityParam 
+2022-02-20 13:24:26.908 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:24:27.103 INFO  specialityParam 
+2022-02-20 13:24:27.112 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:24:27.188 INFO  specialityParam 
+2022-02-20 13:24:27.199 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:24:27.503 INFO  specialityParam 
+2022-02-20 13:24:27.512 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:24:28.279 INFO  specialityParam 
+2022-02-20 13:24:28.289 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:24:28.462 INFO  specialityParam 
+2022-02-20 13:24:28.470 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:24:28.836 INFO  specialityParam 
+2022-02-20 13:24:28.845 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:24:29.005 INFO  specialityParam 
+2022-02-20 13:24:29.015 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:24:29.221 INFO  specialityParam 
+2022-02-20 13:24:29.231 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:24:29.409 INFO  specialityParam 
+2022-02-20 13:24:29.419 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 13:25:13.179 INFO  specialityParam 
+2022-02-20 13:25:13.189 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 13:25:13.535 INFO  specialityParam 
+2022-02-20 13:25:13.545 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 13:25:14.332 INFO  specialityParam 
+2022-02-20 13:25:14.343 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 13:25:14.430 INFO  specialityParam 
+2022-02-20 13:25:14.440 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 13:25:14.544 INFO  specialityParam 
+2022-02-20 13:25:14.553 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 13:25:14.769 INFO  specialityParam 
+2022-02-20 13:25:14.779 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 13:25:14.961 INFO  specialityParam 
+2022-02-20 13:25:14.967 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 14:35:09.610 INFO  Listening to Port 8000 
+2022-02-20 14:35:09.659 INFO  Connected to the mongodb Database 
+2022-02-20 14:58:54.996 INFO  Listening to Port 8000 
+2022-02-20 14:58:55.033 INFO  Connected to the mongodb Database 
+2022-02-20 15:16:04.111 INFO  specialityParam 
+2022-02-20 15:16:04.205 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 15:16:23.269 INFO  specialityParam 
+2022-02-20 15:16:23.283 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 15:16:23.803 INFO  specialityParam 
+2022-02-20 15:16:23.819 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 15:16:23.896 INFO  specialityParam 
+2022-02-20 15:16:23.911 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 15:16:24.165 INFO  specialityParam 
+2022-02-20 15:16:24.178 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 15:57:30.264 INFO  Listening to Port 8000 
+2022-02-20 15:57:30.369 INFO  Connected to the mongodb Database 
+2022-02-20 16:10:29.804 INFO  specialityParam 
+2022-02-20 16:10:29.882 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 16:10:31.289 INFO  specialityParam 
+2022-02-20 16:10:31.306 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 16:10:31.493 INFO  specialityParam 
+2022-02-20 16:10:31.510 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 16:10:31.707 INFO  specialityParam 
+2022-02-20 16:10:31.732 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 16:10:34.395 INFO  specialityParam 
+2022-02-20 16:10:34.409 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 16:10:34.504 INFO  specialityParam 
+2022-02-20 16:10:34.525 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 16:10:34.723 INFO  specialityParam 
+2022-02-20 16:10:34.741 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 16:10:41.176 INFO  specialityParam 
+2022-02-20 16:10:41.208 INFO  [{"_id":"620f313ba9bbd6d7d7510e50","doctorNumber":1,"name":"Dr John","qualification":"MBBS","speciality":"Orthodontist"},{"_id":"620fa27fb8349b6735b46013","doctorNumber":8,"name":"Dr Ashok","qualification":"MBBS","speciality":"Orthodontist","__v":0},{"_id":"620fa4c7b8349b6735b46019","doctorNumber":9,"name":"Dr Arun","qualification":"MBBS","speciality":"Orthodontist","__v":0}] 
+2022-02-20 16:10:41.263 INFO  specialityParam 
+2022-02-20 16:10:41.307 INFO  [{"_id":"620f313ba9bbd6d7d7510e50","doctorNumber":1,"name":"Dr John","qualification":"MBBS","speciality":"Orthodontist"},{"_id":"620fa27fb8349b6735b46013","doctorNumber":8,"name":"Dr Ashok","qualification":"MBBS","speciality":"Orthodontist","__v":0},{"_id":"620fa4c7b8349b6735b46019","doctorNumber":9,"name":"Dr Arun","qualification":"MBBS","speciality":"Orthodontist","__v":0}] 
+2022-02-20 16:10:41.502 INFO  specialityParam 
+2022-02-20 16:10:41.517 INFO  [{"_id":"620f313ba9bbd6d7d7510e50","doctorNumber":1,"name":"Dr John","qualification":"MBBS","speciality":"Orthodontist"},{"_id":"620fa27fb8349b6735b46013","doctorNumber":8,"name":"Dr Ashok","qualification":"MBBS","speciality":"Orthodontist","__v":0},{"_id":"620fa4c7b8349b6735b46019","doctorNumber":9,"name":"Dr Arun","qualification":"MBBS","speciality":"Orthodontist","__v":0}] 
+2022-02-20 16:10:41.635 INFO  specialityParam 
+2022-02-20 16:10:41.651 INFO  [{"_id":"620f313ba9bbd6d7d7510e50","doctorNumber":1,"name":"Dr John","qualification":"MBBS","speciality":"Orthodontist"},{"_id":"620fa27fb8349b6735b46013","doctorNumber":8,"name":"Dr Ashok","qualification":"MBBS","speciality":"Orthodontist","__v":0},{"_id":"620fa4c7b8349b6735b46019","doctorNumber":9,"name":"Dr Arun","qualification":"MBBS","speciality":"Orthodontist","__v":0}] 
+2022-02-20 16:10:47.439 INFO  specialityParam 
+2022-02-20 16:10:47.484 INFO  [{"_id":"620f354aa9bbd6d7d7510e54","doctorNumber":5,"name":"Dr Greg","qualification":"MD","speciality":"Cardiologist"},{"_id":"620f35f4a9bbd6d7d7510e56","doctorNumber":7,"name":"Dr Olivia","qualification":"MBBS","speciality":"Cardiologist"}] 
+2022-02-20 16:12:22.434 INFO  specialityParam 
+2022-02-20 16:12:22.450 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 16:12:22.552 INFO  specialityParam 
+2022-02-20 16:12:22.572 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 16:12:24.539 INFO  specialityParam 
+2022-02-20 16:12:24.555 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 16:16:16.566 INFO  specialityParam 
+2022-02-20 16:16:16.588 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 16:18:07.288 INFO  specialityParam 
+2022-02-20 16:18:07.323 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 16:19:49.116 INFO  specialityParam 
+2022-02-20 16:19:49.147 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 16:22:16.962 INFO  specialityParam 
+2022-02-20 16:22:16.981 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 16:22:50.643 INFO  specialityParam 
+2022-02-20 16:22:50.659 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 16:28:21.044 INFO  specialityParam 
+2022-02-20 16:28:21.058 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 16:28:23.763 INFO  specialityParam 
+2022-02-20 16:28:23.779 INFO  [{"_id":"620f34cfa9bbd6d7d7510e53","doctorNumber":4,"name":"Dr Shaun","qualification":"MD","speciality":"Gastroentrologist"},{"_id":"620f35a8a9bbd6d7d7510e55","doctorNumber":6,"name":"Dr Sharon","qualification":"MBBS","speciality":"Gastroentrologist"}] 
+2022-02-20 16:28:46.243 INFO  specialityParam 
+2022-02-20 16:28:46.252 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 16:28:53.451 INFO  specialityParam 
+2022-02-20 16:28:53.462 INFO  [{"_id":"620f34cfa9bbd6d7d7510e53","doctorNumber":4,"name":"Dr Shaun","qualification":"MD","speciality":"Gastroentrologist"},{"_id":"620f35a8a9bbd6d7d7510e55","doctorNumber":6,"name":"Dr Sharon","qualification":"MBBS","speciality":"Gastroentrologist"}] 
+2022-02-20 16:31:12.986 INFO  Listening to Port 8000 
+2022-02-20 16:31:13.091 INFO  Connected to the mongodb Database 
+2022-02-20 16:31:45.672 INFO  Listening to Port 8000 
+2022-02-20 16:31:45.805 INFO  Connected to the mongodb Database 
+2022-02-20 16:31:56.735 INFO  Listening to Port 8000 
+2022-02-20 16:31:56.805 INFO  Connected to the mongodb Database 
+2022-02-20 16:32:02.067 INFO  Listening to Port 8000 
+2022-02-20 16:32:02.113 INFO  Connected to the mongodb Database 
+2022-02-20 16:32:04.413 INFO  Listening to Port 8000 
+2022-02-20 16:32:04.445 INFO  Connected to the mongodb Database 
+2022-02-20 16:32:13.762 INFO  Listening to Port 8000 
+2022-02-20 16:32:13.824 INFO  Connected to the mongodb Database 
+2022-02-20 16:32:15.108 INFO  Listening to Port 8000 
+2022-02-20 16:32:15.141 INFO  Connected to the mongodb Database 
+2022-02-20 16:32:29.332 INFO  Listening to Port 8000 
+2022-02-20 16:32:29.414 INFO  Connected to the mongodb Database 
+2022-02-20 16:32:31.629 INFO  Listening to Port 8000 
+2022-02-20 16:32:31.673 INFO  Connected to the mongodb Database 
+2022-02-20 16:32:41.189 INFO  Listening to Port 8000 
+2022-02-20 16:32:41.261 INFO  Connected to the mongodb Database 
+2022-02-20 16:32:48.633 INFO  Listening to Port 8000 
+2022-02-20 16:32:48.761 INFO  Connected to the mongodb Database 
+2022-02-20 16:32:50.917 INFO  Listening to Port 8000 
+2022-02-20 16:32:50.950 INFO  Connected to the mongodb Database 
+2022-02-20 16:32:53.017 INFO  Listening to Port 8000 
+2022-02-20 16:32:53.052 INFO  Connected to the mongodb Database 
+2022-02-20 16:32:58.773 INFO  Listening to Port 8000 
+2022-02-20 16:32:58.806 INFO  Connected to the mongodb Database 
+2022-02-20 16:33:35.243 INFO  Listening to Port 8000 
+2022-02-20 16:33:35.295 INFO  Connected to the mongodb Database 
+2022-02-20 16:33:41.705 INFO  Listening to Port 8000 
+2022-02-20 16:33:41.837 INFO  Connected to the mongodb Database 
+2022-02-20 16:33:43.965 INFO  Listening to Port 8000 
+2022-02-20 16:33:43.999 INFO  Connected to the mongodb Database 
+2022-02-20 16:33:45.504 INFO  Listening to Port 8000 
+2022-02-20 16:33:45.541 INFO  Connected to the mongodb Database 
+2022-02-20 16:33:54.009 INFO  Listening to Port 8000 
+2022-02-20 16:33:54.066 INFO  Connected to the mongodb Database 
+2022-02-20 16:34:15.512 INFO  Listening to Port 8000 
+2022-02-20 16:34:15.602 INFO  Connected to the mongodb Database 
+2022-02-20 16:34:34.226 INFO  Listening to Port 8000 
+2022-02-20 16:34:34.343 INFO  Connected to the mongodb Database 
+2022-02-20 16:34:49.993 INFO  Listening to Port 8000 
+2022-02-20 16:34:50.065 INFO  Connected to the mongodb Database 
+2022-02-20 16:35:01.895 INFO  Listening to Port 8000 
+2022-02-20 16:35:01.984 INFO  Connected to the mongodb Database 
+2022-02-20 16:35:05.031 INFO  Listening to Port 8000 
+2022-02-20 16:35:05.065 INFO  Connected to the mongodb Database 
+2022-02-20 16:35:10.056 INFO  Listening to Port 8000 
+2022-02-20 16:35:10.091 INFO  Connected to the mongodb Database 
+2022-02-20 16:36:33.141 INFO  Listening to Port 8000 
+2022-02-20 16:36:33.345 INFO  Connected to the mongodb Database 
+2022-02-20 16:36:37.946 INFO  Listening to Port 8000 
+2022-02-20 16:36:37.979 INFO  Connected to the mongodb Database 
+2022-02-20 16:36:43.296 INFO  Listening to Port 8000 
+2022-02-20 16:36:43.351 INFO  Connected to the mongodb Database 
+2022-02-20 16:36:45.697 INFO  Listening to Port 8000 
+2022-02-20 16:36:45.733 INFO  Connected to the mongodb Database 
+2022-02-20 16:36:50.036 INFO  Listening to Port 8000 
+2022-02-20 16:36:50.102 INFO  Connected to the mongodb Database 
+2022-02-20 16:36:52.484 INFO  Listening to Port 8000 
+2022-02-20 16:36:52.526 INFO  Connected to the mongodb Database 
+2022-02-20 16:36:57.083 INFO  Listening to Port 8000 
+2022-02-20 16:36:57.115 INFO  Connected to the mongodb Database 
+2022-02-20 16:37:05.724 INFO  Connected to the mongodb Database 
+2022-02-20 16:37:05.773 INFO  WELCOME TO CLINIC MANAGEMENT HOME PAGE 
+2022-02-20 16:37:05.834 INFO  specialityParam 
+2022-02-20 16:37:05.889 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 16:37:51.503 INFO  Listening to Port 8000 
+2022-02-20 16:37:51.581 INFO  Connected to the mongodb Database 
+2022-02-20 16:38:10.623 INFO  Connected to the mongodb Database 
+2022-02-20 16:38:10.666 INFO  WELCOME TO CLINIC MANAGEMENT HOME PAGE 
+2022-02-20 16:38:10.751 INFO  specialityParam 
+2022-02-20 16:38:10.805 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 16:39:28.070 INFO  Listening to Port 8000 
+2022-02-20 16:39:28.173 INFO  Connected to the mongodb Database 
+2022-02-20 16:39:48.702 INFO  Connected to the mongodb Database 
+2022-02-20 16:39:48.721 INFO  WELCOME TO CLINIC MANAGEMENT HOME PAGE 
+2022-02-20 16:39:48.797 INFO  specialityParam 
+2022-02-20 16:39:48.860 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 16:40:47.982 INFO  Listening to Port 8000 
+2022-02-20 16:40:48.145 INFO  Connected to the mongodb Database 
+2022-02-20 16:41:01.847 INFO  Connected to the mongodb Database 
+2022-02-20 16:41:01.881 INFO  WELCOME TO CLINIC MANAGEMENT HOME PAGE 
+2022-02-20 16:41:01.944 INFO  specialityParam 
+2022-02-20 16:41:02.006 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 16:41:36.143 INFO  Listening to Port 8000 
+2022-02-20 16:41:36.185 INFO  Connected to the mongodb Database 
+2022-02-20 16:41:47.279 INFO  Listening to Port 8000 
+2022-02-20 16:41:47.341 INFO  Connected to the mongodb Database 
+2022-02-20 16:41:49.517 INFO  Listening to Port 8000 
+2022-02-20 16:41:49.550 INFO  Connected to the mongodb Database 
+2022-02-20 16:41:52.734 INFO  Listening to Port 8000 
+2022-02-20 16:41:52.770 INFO  Connected to the mongodb Database 
+2022-02-20 16:42:17.050 INFO  Listening to Port 8000 
+2022-02-20 16:42:17.083 INFO  Connected to the mongodb Database 
+2022-02-20 16:43:11.388 INFO  Listening to Port 8000 
+2022-02-20 16:43:11.480 INFO  Connected to the mongodb Database 
+2022-02-20 16:43:14.310 INFO  Listening to Port 8000 
+2022-02-20 16:43:14.343 INFO  Connected to the mongodb Database 
+2022-02-20 16:43:17.180 INFO  Listening to Port 8000 
+2022-02-20 16:43:17.243 INFO  Connected to the mongodb Database 
+2022-02-20 17:13:41.164 INFO  Connected to the mongodb Database 
+2022-02-20 17:13:55.465 INFO  Connected to the mongodb Database 
+2022-02-20 17:14:03.099 INFO  specialityParam 
+2022-02-20 17:14:03.137 INFO  [{"_id":"620f33aaa9bbd6d7d7510e52","doctorNumber":3,"name":"Dr Jane","qualification":"BAMS","speciality":"Paediatrician"}] 
+2022-02-20 17:16:07.414 INFO  Searched for all the doctors 
+2022-02-20 17:16:57.769 INFO  New Doctor Got Inserted To The Database 
+2022-02-20 17:17:14.240 INFO  specialityParam 
+2022-02-20 17:17:14.246 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"}] 
+2022-02-20 17:18:29.591 INFO  Connected to the mongodb Database 
+2022-02-20 17:19:08.207 INFO  Connected to the mongodb Database 
+2022-02-20 17:19:10.540 INFO  Connected to the mongodb Database 
+2022-02-20 17:19:12.052 INFO  Connected to the mongodb Database 
+2022-02-20 17:19:17.688 INFO  Connected to the mongodb Database 
+2022-02-20 17:19:34.281 INFO  Connected to the mongodb Database 
+2022-02-20 17:19:43.505 INFO  Connected to the mongodb Database 
+2022-02-20 17:19:44.600 INFO  Searched for all the doctors based on speciality 
+2022-02-20 17:21:50.108 INFO  Connected to the mongodb Database 
+2022-02-20 17:21:53.347 INFO  Connected to the mongodb Database 
+2022-02-20 17:21:58.978 INFO  Connected to the mongodb Database 
+2022-02-20 17:22:06.878 INFO  Connected to the mongodb Database 
+2022-02-20 17:22:29.220 INFO  Connected to the mongodb Database 
+2022-02-20 17:22:58.853 INFO  Connected to the mongodb Database 
+2022-02-20 17:25:04.701 INFO  Searched doctors based on Doctor Number 
+2022-02-20 17:25:08.326 INFO  Searched doctors based on name 
+2022-02-20 17:25:34.494 INFO  Searched doctors based on id 
+2022-02-20 17:28:15.270 INFO  Doctor data is updated 
+2022-02-20 17:28:15.271 INFO   
+2022-02-20 17:29:30.756 INFO  Doctor data is updated 
+2022-02-20 17:29:30.757 INFO   
+2022-02-20 19:27:42.826 INFO  Searched for all the doctors based on speciality 
+2022-02-20 19:27:54.584 INFO  Searched for all the doctors based on speciality 
+2022-02-20 19:28:02.710 INFO  Searched for all the doctors based on speciality 
+2022-02-20 19:28:10.606 INFO  Searched for all the doctors based on speciality 
+2022-02-20 19:28:18.459 INFO  Searched for all the doctors based on speciality 
+2022-02-20 19:40:59.714 INFO  Connected to the mongodb Database 
+2022-02-20 19:41:24.717 INFO  Searched for all the doctors based on speciality 
+2022-02-20 19:41:33.838 INFO  Searched for all the doctors based on speciality 
+2022-02-20 19:41:44.228 INFO  Searched for all the doctors based on speciality 
+2022-02-20 19:43:23.985 INFO  Connected to the mongodb Database 
+2022-02-20 20:00:01.230 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:00:01.347 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:00:01.371 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:00:01.380 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:00:01.400 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:00:01.413 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:00:01.420 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:00:01.447 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:00:01.457 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:00:01.464 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:00:01.475 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:00:01.491 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:00:01.499 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:00:01.513 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:00:01.526 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:00:01.539 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:00:01.565 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:00:01.574 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:00:01.586 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:00:01.596 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:00:01.605 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:00:01.617 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:00:01.629 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:00:01.634 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:00:15.282 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:01:00.232 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:01:04.435 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:01:06.526 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:01:09.037 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:01:11.144 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:01:14.389 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:01:17.038 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:01:20.378 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:01:36.910 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:02:02.053 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:03:44.253 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:03:53.832 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:03:53.938 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:04:04.074 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:12:54.265 INFO  Connected to the mongodb Database 
+2022-02-20 20:13:13.148 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:13:28.940 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:15:46.659 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:15:54.323 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:16:01.557 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:19:01.416 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:19:06.673 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:19:12.266 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:21:25.241 INFO  Connected to the mongodb Database 
+2022-02-20 20:21:31.646 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:21:40.158 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:23:00.230 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:23:18.243 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:24:51.535 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:26:45.412 INFO  Searched for all the doctors based on speciality 
+2022-02-20 20:26:52.267 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:31:46.327 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:31:50.582 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:31:58.090 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:32:06.352 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:35:23.958 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:35:28.271 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:36:51.469 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:39:37.319 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:39:46.965 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:41:24.078 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:41:58.353 INFO  Connected to the mongodb Database 
+2022-02-20 23:42:11.126 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:42:37.915 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:44:16.502 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:44:23.056 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:51:30.717 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:51:49.640 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:51:52.666 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:51:56.826 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:51:59.376 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:52:24.786 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:52:34.550 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:52:50.887 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:52:52.551 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:52:57.704 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:53:01.736 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:53:04.920 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:53:06.650 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:53:10.751 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:53:13.475 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:54:07.663 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:54:14.448 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:54:16.402 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:56:56.326 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:57:03.035 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:57:06.191 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:57:12.744 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:57:15.176 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:57:22.838 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:59:31.635 INFO  Searched for all the doctors based on speciality 
+2022-02-20 23:59:48.839 INFO  Searched for all the doctors based on speciality 
+2022-02-21 00:04:19.922 INFO  Searched for all the doctors based on speciality 
+2022-02-21 00:05:21.242 INFO  Searched for all the doctors based on speciality 
+2022-02-21 00:05:38.864 INFO  Searched for all the doctors based on speciality 
+2022-02-21 00:05:41.662 INFO  Searched for all the doctors based on speciality 
+2022-02-21 00:06:09.589 INFO  Searched for all the doctors based on speciality 
+2022-02-21 00:06:17.353 INFO  Searched for all the doctors based on speciality 
+2022-02-21 00:06:28.774 INFO  Searched for all the doctors based on speciality 
+2022-02-21 00:07:56.350 INFO  Searched for all the doctors based on speciality 
