@@ -6,14 +6,9 @@ import DoctorContainer from "./components/DoctorContainer";
 import store from "./store/myStore";
 import { Provider } from 'react-redux';
 import NoPageFound from "./components/NoPageFound";
+import AddDoctorContainer from "./components/AddDoctorContainer";
 
 
-// import SimpleNodeLogger from 'simple-node-logger';
-// const opts = {
-//   logFilePath: 'mylogfile.log',
-//   timestampFormat: 'YYYY-MM-DD HH:mm:ss.SSS'
-// };
-// const log = SimpleNodeLogger.createSimpleLogger(opts);
 
 
 function App() {
@@ -22,8 +17,8 @@ function App() {
       <Routes>
 
         <Route path="/" element={<Home />} />
-        {/* <Route path="/doctors/add" element={<AddDoctors />} />
-        <Route path="/doctors/edit" element={<EditDoctors />} /> */}
+        <Route path="/doctors/add" element={<AddDoctorContainer mode="ADD"/>} />
+      <Route path="/doctors/edit/" element={<AddDoctorContainer mode="EDIT"/>} /> 
         <Route path="/doctors/search/speciality/" element={<DoctorContainer />} />
         <Route path="*" element={<NoPageFound />} />
       </Routes>

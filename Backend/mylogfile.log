@@ -575,3 +575,1748 @@
 2022-02-21 00:06:17.353 INFO  Searched for all the doctors based on speciality 
 2022-02-21 00:06:28.774 INFO  Searched for all the doctors based on speciality 
 2022-02-21 00:07:56.350 INFO  Searched for all the doctors based on speciality 
+2022-02-21 08:57:00.563 INFO  Connected to the mongodb Database 
+2022-02-21 08:58:09.237 INFO  Searched for all the doctors based on speciality 
+2022-02-21 10:06:38.199 INFO  Searched for all the doctors based on speciality 
+2022-02-21 10:35:30.631 INFO  Connected to the mongodb Database 
+2022-02-21 13:14:56.934 INFO  Connected to the mongodb Database 
+2022-02-21 13:47:30.814 INFO  Searched for all the doctors based on speciality 
+2022-02-21 14:12:45.635 INFO  Connected to the mongodb Database 
+2022-02-21 14:12:45.731 INFO  Searched for all the doctors based on speciality 
+2022-02-21 14:12:50.466 INFO  Searched for all the doctors based on speciality 
+2022-02-21 14:14:07.367 INFO  Searched for all the doctors based on speciality 
+2022-02-21 14:23:40.537 INFO  Searched for all the doctors based on speciality 
+2022-02-21 14:23:56.849 INFO  Searched for all the doctors based on speciality 
+2022-02-21 14:35:36.873 INFO  Searched for all the doctors based on speciality 
+2022-02-21 14:55:12.654 INFO  Searched for all the doctors based on speciality 
+2022-02-21 14:55:30.050 INFO  Connected to the mongodb Database 
+2022-02-21 14:57:16.768 INFO  New Doctor Got Inserted To The Database 
+2022-02-21 14:58:54.085 INFO  Connected to the mongodb Database 
+2022-02-21 15:00:22.099 INFO  New Doctor Got Inserted To The Database 
+2022-02-21 15:03:31.989 INFO  Connected to the mongodb Database 
+2022-02-21 15:04:28.469 INFO  New Doctor Got Inserted To The Database 
+2022-02-21 15:05:21.747 INFO  Connected to the mongodb Database 
+2022-02-21 15:08:01.924 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 15 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":15}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 15 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-21 15:15:18.188 INFO  Connected to the mongodb Database 
+2022-02-21 15:25:34.068 INFO  Searched for all the doctors based on speciality 
+2022-02-21 15:29:36.388 INFO  Searched for all the doctors based on speciality 
+2022-02-21 15:29:59.822 ERROR Doctors validation failed: speciality: Path `speciality` is required.
+{"errors":{"speciality":{"name":"ValidatorError","message":"Path `speciality` is required.","properties":{"message":"Path `speciality` is required.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"Doctors validation failed","name":"ValidationError","message":"Doctors validation failed: speciality: Path `speciality` is required."}
+ValidationError: Doctors validation failed: speciality: Path `speciality` is required.
+    at model.Document.invalidate (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2938:32)
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2729:17
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\schematype.js:1324:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+2022-02-21 15:30:00.633 ERROR Doctors validation failed: speciality: Path `speciality` is required.
+{"errors":{"speciality":{"name":"ValidatorError","message":"Path `speciality` is required.","properties":{"message":"Path `speciality` is required.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"Doctors validation failed","name":"ValidationError","message":"Doctors validation failed: speciality: Path `speciality` is required."}
+ValidationError: Doctors validation failed: speciality: Path `speciality` is required.
+    at model.Document.invalidate (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2938:32)
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2729:17
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\schematype.js:1324:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+2022-02-21 15:30:00.898 ERROR Doctors validation failed: speciality: Path `speciality` is required.
+{"errors":{"speciality":{"name":"ValidatorError","message":"Path `speciality` is required.","properties":{"message":"Path `speciality` is required.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"Doctors validation failed","name":"ValidationError","message":"Doctors validation failed: speciality: Path `speciality` is required."}
+ValidationError: Doctors validation failed: speciality: Path `speciality` is required.
+    at model.Document.invalidate (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2938:32)
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2729:17
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\schematype.js:1324:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+2022-02-21 15:30:00.944 ERROR Doctors validation failed: speciality: Path `speciality` is required.
+{"errors":{"speciality":{"name":"ValidatorError","message":"Path `speciality` is required.","properties":{"message":"Path `speciality` is required.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"Doctors validation failed","name":"ValidationError","message":"Doctors validation failed: speciality: Path `speciality` is required."}
+ValidationError: Doctors validation failed: speciality: Path `speciality` is required.
+    at model.Document.invalidate (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2938:32)
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2729:17
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\schematype.js:1324:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+2022-02-21 16:07:32.387 INFO  Searched for all the doctors based on speciality 
+2022-02-21 16:09:24.382 INFO  Searched for all the doctors based on speciality 
+2022-02-21 16:11:07.932 INFO  Searched for all the doctors based on speciality 
+2022-02-21 16:11:14.496 INFO  Searched for all the doctors based on speciality 
+2022-02-21 16:11:47.096 INFO  Searched for all the doctors based on speciality 
+2022-02-21 16:11:52.835 INFO  Searched for all the doctors based on speciality 
+2022-02-21 16:12:58.910 INFO  Searched for all the doctors based on speciality 
+2022-02-21 16:27:43.175 INFO  Searched for all the doctors based on speciality 
+2022-02-21 16:27:48.571 INFO  Searched for all the doctors based on speciality 
+2022-02-21 16:38:34.673 INFO  Searched for all the doctors based on speciality 
+2022-02-21 17:00:12.158 INFO  Connected to the mongodb Database 
+2022-02-21 17:00:20.036 INFO  Connected to the mongodb Database 
+2022-02-21 17:00:28.495 INFO  Connected to the mongodb Database 
+2022-02-21 17:00:34.607 INFO  Connected to the mongodb Database 
+2022-02-21 17:00:38.141 INFO  Connected to the mongodb Database 
+2022-02-21 17:00:46.999 INFO  Connected to the mongodb Database 
+2022-02-21 17:00:54.850 INFO  Connected to the mongodb Database 
+2022-02-21 17:01:09.135 INFO  Connected to the mongodb Database 
+2022-02-21 17:01:12.048 INFO  Connected to the mongodb Database 
+2022-02-21 17:02:17.767 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 17 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":17}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 17 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-21 17:02:20.288 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 17 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":17}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 17 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-21 17:02:21.119 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 17 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":17}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 17 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-21 17:02:21.296 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 17 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":17}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 17 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-21 17:02:23.176 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 17 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":17}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 17 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-21 17:02:23.523 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 17 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":17}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 17 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-21 17:05:50.160 ERROR Doctors validation failed: speciality: Select Speciality.
+{"errors":{"speciality":{"name":"ValidatorError","message":"Select Speciality.","properties":{"message":"Select Speciality.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"Doctors validation failed","name":"ValidationError","message":"Doctors validation failed: speciality: Select Speciality."}
+ValidationError: Doctors validation failed: speciality: Select Speciality.
+    at model.Document.invalidate (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2938:32)
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2729:17
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\schematype.js:1324:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+2022-02-21 17:05:51.505 ERROR Doctors validation failed: speciality: Select Speciality.
+{"errors":{"speciality":{"name":"ValidatorError","message":"Select Speciality.","properties":{"message":"Select Speciality.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"Doctors validation failed","name":"ValidationError","message":"Doctors validation failed: speciality: Select Speciality."}
+ValidationError: Doctors validation failed: speciality: Select Speciality.
+    at model.Document.invalidate (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2938:32)
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2729:17
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\schematype.js:1324:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+2022-02-21 17:07:12.013 ERROR Doctors validation failed: speciality: Select Speciality.
+{"errors":{"speciality":{"name":"ValidatorError","message":"Select Speciality.","properties":{"message":"Select Speciality.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"Doctors validation failed","name":"ValidationError","message":"Doctors validation failed: speciality: Select Speciality."}
+ValidationError: Doctors validation failed: speciality: Select Speciality.
+    at model.Document.invalidate (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2938:32)
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2729:17
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\schematype.js:1324:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+2022-02-21 17:07:19.104 INFO  Searched for all the doctors based on speciality 
+2022-02-21 17:07:21.488 INFO  Searched for all the doctors based on speciality 
+2022-02-21 17:11:43.539 INFO  Searched for all the doctors based on speciality 
+2022-02-21 17:14:14.322 INFO  Searched for all the doctors based on speciality 
+2022-02-21 17:14:19.612 INFO  doctor deleted by its name 
+2022-02-21 17:14:21.293 INFO  doctor deleted by its name 
+2022-02-21 17:14:34.525 INFO  doctor deleted by its name 
+2022-02-21 17:14:39.979 INFO  Searched for all the doctors based on speciality 
+2022-02-21 17:16:48.304 INFO  Connected to the mongodb Database 
+2022-02-21 17:16:58.812 INFO  Connected to the mongodb Database 
+2022-02-21 17:17:03.283 INFO  Connected to the mongodb Database 
+2022-02-21 17:17:08.395 INFO  Connected to the mongodb Database 
+2022-02-21 17:17:12.098 INFO  Connected to the mongodb Database 
+2022-02-21 17:17:17.319 INFO  Connected to the mongodb Database 
+2022-02-21 17:17:26.498 INFO  Connected to the mongodb Database 
+2022-02-21 17:17:38.969 INFO  Connected to the mongodb Database 
+2022-02-21 17:17:50.636 INFO  New Doctor Got Inserted To The Database 
+2022-02-21 17:17:59.431 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 1 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":1}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 1 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-21 17:18:34.296 INFO  Connected to the mongodb Database 
+2022-02-21 17:18:37.578 INFO  Connected to the mongodb Database 
+2022-02-21 21:39:56.888 INFO  Searched for all the doctors based on speciality 
+2022-02-21 21:40:06.296 INFO  Searched for all the doctors based on speciality 
+2022-02-21 21:54:32.616 INFO  Connected to the mongodb Database 
+2022-02-21 21:56:11.166 INFO  Searched for all the doctors based on speciality 
+2022-02-21 21:56:11.257 INFO  Searched for all the doctors based on speciality 
+2022-02-21 21:56:21.851 INFO  doctor deleted by its name 
+2022-02-21 21:56:21.917 INFO  doctor deleted by its name 
+2022-02-21 21:56:23.438 INFO  doctor deleted by its name 
+2022-02-21 21:56:23.513 INFO  doctor deleted by its name 
+2022-02-21 21:56:25.481 INFO  doctor deleted by its name 
+2022-02-21 21:56:31.406 INFO  Searched for all the doctors based on speciality 
+2022-02-21 21:56:34.149 INFO  doctor deleted by its name 
+2022-02-21 21:56:34.261 INFO  doctor deleted by its name 
+2022-02-21 21:56:39.657 INFO  Searched for all the doctors based on speciality 
+2022-02-21 21:56:39.740 INFO  Searched for all the doctors based on speciality 
+2022-02-21 21:56:41.678 INFO  doctor deleted by its name 
+2022-02-21 21:56:41.754 INFO  doctor deleted by its name 
+2022-02-21 21:56:44.110 INFO  Searched for all the doctors based on speciality 
+2022-02-21 21:56:46.136 INFO  doctor deleted by its name 
+2022-02-21 21:56:47.184 INFO  Searched for all the doctors based on speciality 
+2022-02-21 21:56:47.278 INFO  Searched for all the doctors based on speciality 
+2022-02-21 21:56:50.064 INFO  Searched for all the doctors based on speciality 
+2022-02-21 21:56:53.854 INFO  Searched for all the doctors based on speciality 
+2022-02-21 21:57:00.147 INFO  Searched for all the doctors based on speciality 
+2022-02-21 21:57:03.927 INFO  Searched for all the doctors based on speciality 
+2022-02-21 21:57:06.360 INFO  Searched for all the doctors based on speciality 
+2022-02-21 21:57:08.661 INFO  Searched for all the doctors based on speciality 
+2022-02-21 21:57:34.179 ERROR Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+{"errors":{"name":{"name":"ValidatorError","message":"Enter Name.","properties":{"message":"Enter Name.","type":"required","path":"name","value":""},"kind":"required","path":"name","value":""},"qualification":{"name":"ValidatorError","message":"Enter Qualification.","properties":{"message":"Enter Qualification.","type":"required","path":"qualification","value":""},"kind":"required","path":"qualification","value":""},"speciality":{"name":"ValidatorError","message":"Select Speciality.","properties":{"message":"Select Speciality.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"Doctors validation failed","name":"ValidationError","message":"Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality."}
+ValidationError: Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+    at model.Document.invalidate (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2938:32)
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2729:17
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\schematype.js:1324:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+2022-02-21 21:57:42.792 ERROR Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+{"errors":{"name":{"name":"ValidatorError","message":"Enter Name.","properties":{"message":"Enter Name.","type":"required","path":"name","value":""},"kind":"required","path":"name","value":""},"qualification":{"name":"ValidatorError","message":"Enter Qualification.","properties":{"message":"Enter Qualification.","type":"required","path":"qualification","value":""},"kind":"required","path":"qualification","value":""},"speciality":{"name":"ValidatorError","message":"Select Speciality.","properties":{"message":"Select Speciality.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"Doctors validation failed","name":"ValidationError","message":"Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality."}
+ValidationError: Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+    at model.Document.invalidate (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2938:32)
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2729:17
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\schematype.js:1324:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+2022-02-21 21:57:42.895 ERROR Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+{"errors":{"name":{"name":"ValidatorError","message":"Enter Name.","properties":{"message":"Enter Name.","type":"required","path":"name","value":""},"kind":"required","path":"name","value":""},"qualification":{"name":"ValidatorError","message":"Enter Qualification.","properties":{"message":"Enter Qualification.","type":"required","path":"qualification","value":""},"kind":"required","path":"qualification","value":""},"speciality":{"name":"ValidatorError","message":"Select Speciality.","properties":{"message":"Select Speciality.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"Doctors validation failed","name":"ValidationError","message":"Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality."}
+ValidationError: Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+    at model.Document.invalidate (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2938:32)
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2729:17
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\schematype.js:1324:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+2022-02-21 21:57:52.492 ERROR Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+{"errors":{"name":{"name":"ValidatorError","message":"Enter Name.","properties":{"message":"Enter Name.","type":"required","path":"name","value":""},"kind":"required","path":"name","value":""},"qualification":{"name":"ValidatorError","message":"Enter Qualification.","properties":{"message":"Enter Qualification.","type":"required","path":"qualification","value":""},"kind":"required","path":"qualification","value":""},"speciality":{"name":"ValidatorError","message":"Select Speciality.","properties":{"message":"Select Speciality.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"Doctors validation failed","name":"ValidationError","message":"Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality."}
+ValidationError: Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+    at model.Document.invalidate (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2938:32)
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2729:17
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\schematype.js:1324:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+2022-02-21 21:57:57.245 ERROR Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+{"errors":{"name":{"name":"ValidatorError","message":"Enter Name.","properties":{"message":"Enter Name.","type":"required","path":"name","value":""},"kind":"required","path":"name","value":""},"qualification":{"name":"ValidatorError","message":"Enter Qualification.","properties":{"message":"Enter Qualification.","type":"required","path":"qualification","value":""},"kind":"required","path":"qualification","value":""},"speciality":{"name":"ValidatorError","message":"Select Speciality.","properties":{"message":"Select Speciality.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"Doctors validation failed","name":"ValidationError","message":"Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality."}
+ValidationError: Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+    at model.Document.invalidate (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2938:32)
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2729:17
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\schematype.js:1324:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+2022-02-21 21:58:07.179 ERROR Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+{"errors":{"name":{"name":"ValidatorError","message":"Enter Name.","properties":{"message":"Enter Name.","type":"required","path":"name","value":""},"kind":"required","path":"name","value":""},"qualification":{"name":"ValidatorError","message":"Enter Qualification.","properties":{"message":"Enter Qualification.","type":"required","path":"qualification","value":""},"kind":"required","path":"qualification","value":""},"speciality":{"name":"ValidatorError","message":"Select Speciality.","properties":{"message":"Select Speciality.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"Doctors validation failed","name":"ValidationError","message":"Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality."}
+ValidationError: Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+    at model.Document.invalidate (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2938:32)
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2729:17
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\schematype.js:1324:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+2022-02-21 21:58:07.291 ERROR Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+{"errors":{"name":{"name":"ValidatorError","message":"Enter Name.","properties":{"message":"Enter Name.","type":"required","path":"name","value":""},"kind":"required","path":"name","value":""},"qualification":{"name":"ValidatorError","message":"Enter Qualification.","properties":{"message":"Enter Qualification.","type":"required","path":"qualification","value":""},"kind":"required","path":"qualification","value":""},"speciality":{"name":"ValidatorError","message":"Select Speciality.","properties":{"message":"Select Speciality.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"Doctors validation failed","name":"ValidationError","message":"Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality."}
+ValidationError: Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+    at model.Document.invalidate (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2938:32)
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2729:17
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\schematype.js:1324:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+2022-02-21 21:58:13.839 ERROR Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+{"errors":{"name":{"name":"ValidatorError","message":"Enter Name.","properties":{"message":"Enter Name.","type":"required","path":"name","value":""},"kind":"required","path":"name","value":""},"qualification":{"name":"ValidatorError","message":"Enter Qualification.","properties":{"message":"Enter Qualification.","type":"required","path":"qualification","value":""},"kind":"required","path":"qualification","value":""},"speciality":{"name":"ValidatorError","message":"Select Speciality.","properties":{"message":"Select Speciality.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"Doctors validation failed","name":"ValidationError","message":"Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality."}
+ValidationError: Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+    at model.Document.invalidate (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2938:32)
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2729:17
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\schematype.js:1324:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+2022-02-21 21:58:13.971 ERROR Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+{"errors":{"name":{"name":"ValidatorError","message":"Enter Name.","properties":{"message":"Enter Name.","type":"required","path":"name","value":""},"kind":"required","path":"name","value":""},"qualification":{"name":"ValidatorError","message":"Enter Qualification.","properties":{"message":"Enter Qualification.","type":"required","path":"qualification","value":""},"kind":"required","path":"qualification","value":""},"speciality":{"name":"ValidatorError","message":"Select Speciality.","properties":{"message":"Select Speciality.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"Doctors validation failed","name":"ValidationError","message":"Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality."}
+ValidationError: Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+    at model.Document.invalidate (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2938:32)
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2729:17
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\schematype.js:1324:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+2022-02-21 21:58:22.045 ERROR Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+{"errors":{"name":{"name":"ValidatorError","message":"Enter Name.","properties":{"message":"Enter Name.","type":"required","path":"name","value":""},"kind":"required","path":"name","value":""},"qualification":{"name":"ValidatorError","message":"Enter Qualification.","properties":{"message":"Enter Qualification.","type":"required","path":"qualification","value":""},"kind":"required","path":"qualification","value":""},"speciality":{"name":"ValidatorError","message":"Select Speciality.","properties":{"message":"Select Speciality.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"Doctors validation failed","name":"ValidationError","message":"Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality."}
+ValidationError: Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+    at model.Document.invalidate (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2938:32)
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2729:17
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\schematype.js:1324:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+2022-02-21 21:58:23.954 ERROR Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+{"errors":{"name":{"name":"ValidatorError","message":"Enter Name.","properties":{"message":"Enter Name.","type":"required","path":"name","value":""},"kind":"required","path":"name","value":""},"qualification":{"name":"ValidatorError","message":"Enter Qualification.","properties":{"message":"Enter Qualification.","type":"required","path":"qualification","value":""},"kind":"required","path":"qualification","value":""},"speciality":{"name":"ValidatorError","message":"Select Speciality.","properties":{"message":"Select Speciality.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"Doctors validation failed","name":"ValidationError","message":"Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality."}
+ValidationError: Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+    at model.Document.invalidate (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2938:32)
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2729:17
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\schematype.js:1324:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+2022-02-21 21:58:30.607 ERROR Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+{"errors":{"name":{"name":"ValidatorError","message":"Enter Name.","properties":{"message":"Enter Name.","type":"required","path":"name","value":""},"kind":"required","path":"name","value":""},"qualification":{"name":"ValidatorError","message":"Enter Qualification.","properties":{"message":"Enter Qualification.","type":"required","path":"qualification","value":""},"kind":"required","path":"qualification","value":""},"speciality":{"name":"ValidatorError","message":"Select Speciality.","properties":{"message":"Select Speciality.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"Doctors validation failed","name":"ValidationError","message":"Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality."}
+ValidationError: Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+    at model.Document.invalidate (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2938:32)
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2729:17
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\schematype.js:1324:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+2022-02-21 21:58:37.450 ERROR Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+{"errors":{"name":{"name":"ValidatorError","message":"Enter Name.","properties":{"message":"Enter Name.","type":"required","path":"name","value":""},"kind":"required","path":"name","value":""},"qualification":{"name":"ValidatorError","message":"Enter Qualification.","properties":{"message":"Enter Qualification.","type":"required","path":"qualification","value":""},"kind":"required","path":"qualification","value":""},"speciality":{"name":"ValidatorError","message":"Select Speciality.","properties":{"message":"Select Speciality.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"Doctors validation failed","name":"ValidationError","message":"Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality."}
+ValidationError: Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+    at model.Document.invalidate (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2938:32)
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2729:17
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\schematype.js:1324:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+2022-02-21 21:58:55.725 INFO  New Doctor Got Inserted To The Database 
+2022-02-21 21:58:55.846 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 20 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":20}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 20 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-21 21:58:57.397 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 20 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":20}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 20 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-21 21:58:59.908 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 20 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":20}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 20 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-21 21:59:04.450 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 20 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":20}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 20 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-21 21:59:09.024 INFO  New Doctor Got Inserted To The Database 
+2022-02-21 21:59:09.116 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 21 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":21}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 21 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-21 21:59:09.677 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 21 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":21}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 21 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-21 21:59:09.794 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 21 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":21}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 21 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-21 21:59:11.029 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 21 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":21}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 21 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-21 21:59:11.097 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 21 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":21}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 21 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-21 21:59:13.812 INFO  New Doctor Got Inserted To The Database 
+2022-02-21 21:59:26.868 INFO  New Doctor Got Inserted To The Database 
+2022-02-21 22:01:58.868 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 23 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":23}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 23 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-21 22:02:06.785 INFO  New Doctor Got Inserted To The Database 
+2022-02-21 22:06:36.170 INFO  New Doctor Got Inserted To The Database 
+2022-02-21 22:06:36.238 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 25 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":25}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 25 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-21 22:07:25.948 INFO  Searched for all the doctors based on speciality 
+2022-02-21 22:07:28.458 INFO  doctor deleted by its name 
+2022-02-21 22:07:31.255 INFO  Searched for all the doctors based on speciality 
+2022-02-21 22:08:02.629 INFO  Searched for all the doctors based on speciality 
+2022-02-21 22:13:58.797 INFO  Connected to the mongodb Database 
+2022-02-21 22:14:06.817 INFO  Connected to the mongodb Database 
+2022-02-21 22:14:09.023 INFO  Connected to the mongodb Database 
+2022-02-21 22:14:13.315 INFO  Connected to the mongodb Database 
+2022-02-21 22:14:16.609 INFO  Connected to the mongodb Database 
+2022-02-21 22:14:18.741 INFO  Connected to the mongodb Database 
+2022-02-21 22:14:32.062 ERROR Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+{"errors":{"name":{"name":"ValidatorError","message":"Enter Name.","properties":{"message":"Enter Name.","type":"required","path":"name","value":""},"kind":"required","path":"name","value":""},"qualification":{"name":"ValidatorError","message":"Enter Qualification.","properties":{"message":"Enter Qualification.","type":"required","path":"qualification","value":""},"kind":"required","path":"qualification","value":""},"speciality":{"name":"ValidatorError","message":"Select Speciality.","properties":{"message":"Select Speciality.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"Doctors validation failed","name":"ValidationError","message":"Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality."}
+ValidationError: Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+    at model.Document.invalidate (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2938:32)
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2729:17
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\schematype.js:1324:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+2022-02-21 22:14:34.505 ERROR Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+{"errors":{"name":{"name":"ValidatorError","message":"Enter Name.","properties":{"message":"Enter Name.","type":"required","path":"name","value":""},"kind":"required","path":"name","value":""},"qualification":{"name":"ValidatorError","message":"Enter Qualification.","properties":{"message":"Enter Qualification.","type":"required","path":"qualification","value":""},"kind":"required","path":"qualification","value":""},"speciality":{"name":"ValidatorError","message":"Select Speciality.","properties":{"message":"Select Speciality.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"Doctors validation failed","name":"ValidationError","message":"Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality."}
+ValidationError: Doctors validation failed: name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+    at model.Document.invalidate (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2938:32)
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2729:17
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\schematype.js:1324:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+2022-02-21 23:05:45.068 INFO  Connected to the mongodb Database 
+2022-02-22 09:59:45.265 INFO  Connected to the mongodb Database 
+2022-02-22 10:01:08.915 INFO  Connected to the mongodb Database 
+2022-02-22 10:01:19.618 INFO  Connected to the mongodb Database 
+2022-02-22 10:01:19.767 INFO  Searched for all the doctors based on specialityGastroentrologist 
+2022-02-22 10:01:19.802 INFO  Searched for all the doctors based on specialityGastroentrologist 
+2022-02-22 10:01:19.818 INFO  Searched for all the doctors based on specialityGastroentrologist 
+2022-02-22 10:01:19.834 INFO  Searched for all the doctors based on specialityGastroentrologist 
+2022-02-22 10:01:35.377 INFO  Connected to the mongodb Database 
+2022-02-22 10:01:41.755 INFO  Searched for all the doctors based on specialityOpthalmologist 
+2022-02-22 11:44:53.909 INFO  Searched for all the doctors based on specialityGastroentrologist 
+2022-02-22 11:48:17.714 INFO  Searched for all the doctors based on specialityPaediatrician 
+2022-02-22 11:49:17.702 INFO  doctor deleted by its name 
+2022-02-22 11:49:33.275 INFO  Searched for all the doctors based on specialityOpthalmologist 
+2022-02-22 12:01:13.720 INFO  Searched for all the doctors based on specialityPaediatrician 
+2022-02-22 12:07:46.548 INFO  Searched for all the doctors based on specialityPaediatrician 
+2022-02-22 12:07:51.452 INFO  Searched for all the doctors based on specialityPaediatrician 
+2022-02-22 12:15:21.683 INFO  Searched for all the doctors based on specialityPaediatrician 
+2022-02-22 12:21:22.838 INFO  Connected to the mongodb Database 
+2022-02-22 12:21:25.939 INFO  Connected to the mongodb Database 
+2022-02-22 12:21:30.182 INFO  Connected to the mongodb Database 
+2022-02-22 12:21:43.686 INFO  Connected to the mongodb Database 
+2022-02-22 12:21:58.451 INFO  Connected to the mongodb Database 
+2022-02-22 12:22:02.051 INFO  Connected to the mongodb Database 
+2022-02-22 12:22:44.617 INFO  Connected to the mongodb Database 
+2022-02-22 12:22:48.438 INFO  Connected to the mongodb Database 
+2022-02-22 12:28:12.716 INFO  Connected to the mongodb Database 
+2022-02-22 12:29:22.795 INFO  Connected to the mongodb Database 
+2022-02-22 12:30:54.698 INFO  Connected to the mongodb Database 
+2022-02-22 12:31:11.890 INFO  Connected to the mongodb Database 
+2022-02-22 12:31:28.812 INFO  Searched for all the doctors based on specialityPaediatrician 
+2022-02-22 12:32:22.167 INFO  Searched for all the doctors based on specialityGastroentrologist 
+2022-02-22 12:35:22.626 INFO  Searched for all the doctors based on specialityPaediatrician 
+2022-02-22 12:35:59.314 INFO  Searched for all the doctors based on specialityPaediatrician 
+2022-02-22 12:36:16.747 INFO  Searched for all the doctors based on specialityGastroentrologist 
+2022-02-22 12:37:30.648 INFO  Searched for all the doctors based on specialityOpthalmologist 
+2022-02-22 12:41:50.609 INFO  Searched for all the doctors based on specialityPaediatrician 
+2022-02-22 12:44:33.445 INFO  Searched for all the doctors based on specialityOpthalmologist 
+2022-02-22 12:47:14.978 INFO  Searched for all the doctors based on specialityOpthalmologist 
+2022-02-22 12:47:15.927 INFO  Searched for all the doctors based on specialityOpthalmologist 
+2022-02-22 12:47:16.046 INFO  Searched for all the doctors based on specialityOpthalmologist 
+2022-02-22 12:47:16.206 INFO  Searched for all the doctors based on specialityOpthalmologist 
+2022-02-22 12:47:16.501 INFO  Searched for all the doctors based on specialityOpthalmologist 
+2022-02-22 12:48:02.612 INFO  Searched for all the doctors based on specialityOpthalmologist 
+2022-02-22 12:58:29.379 INFO  Searched for all the doctors based on specialityOpthalmologist 
+2022-02-22 12:58:43.898 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 2 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":2}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 2 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-22 13:00:54.177 INFO  Connected to the mongodb Database 
+2022-02-22 13:00:55.900 INFO  Connected to the mongodb Database 
+2022-02-22 13:01:17.742 INFO  Connected to the mongodb Database 
+2022-02-22 13:01:37.151 INFO  Connected to the mongodb Database 
+2022-02-22 13:01:59.344 INFO  Connected to the mongodb Database 
+2022-02-22 13:02:12.166 INFO  Connected to the mongodb Database 
+2022-02-22 13:02:18.268 INFO  Connected to the mongodb Database 
+2022-02-22 13:02:29.643 INFO  Connected to the mongodb Database 
+2022-02-22 13:02:37.132 INFO  Connected to the mongodb Database 
+2022-02-22 13:03:12.042 INFO  Connected to the mongodb Database 
+2022-02-22 13:03:29.679 INFO  Connected to the mongodb Database 
+2022-02-22 13:03:34.912 INFO  Connected to the mongodb Database 
+2022-02-22 13:03:38.687 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 2 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":2}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 2 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-22 13:03:52.801 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 19 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":19}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 19 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-22 13:03:53.888 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 19 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":19}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 19 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-22 13:03:54.004 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 19 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":19}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 19 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-22 13:03:54.247 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 19 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":19}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 19 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-22 13:03:54.539 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 19 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":19}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 19 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-22 13:03:54.710 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 19 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":19}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 19 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-22 13:33:46.222 INFO  Connected to the mongodb Database 
+2022-02-22 13:33:56.592 INFO  Connected to the mongodb Database 
+2022-02-22 13:34:02.675 INFO  Connected to the mongodb Database 
+2022-02-22 13:34:15.019 INFO  Connected to the mongodb Database 
+2022-02-22 13:34:17.341 INFO  Connected to the mongodb Database 
+2022-02-22 13:34:21.475 INFO  Connected to the mongodb Database 
+2022-02-22 13:34:23.243 INFO  Connected to the mongodb Database 
+2022-02-22 13:34:27.975 INFO  Connected to the mongodb Database 
+2022-02-22 13:34:29.230 INFO  Connected to the mongodb Database 
+2022-02-22 13:37:45.015 INFO  Searched for all the doctors based on specialityGastroentrologist 
+2022-02-22 13:37:57.419 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 12 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":12}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 12 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-22 13:44:38.305 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 12 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":12}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 12 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-22 13:44:38.409 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 12 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":12}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 12 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-22 13:47:44.677 INFO  Searched for all the doctors based on specialityPaediatrician 
+2022-02-22 14:34:30.440 INFO  Connected to the mongodb Database 
+2022-02-22 14:34:37.845 INFO  Connected to the mongodb Database 
+2022-02-22 14:34:59.163 INFO  Connected to the mongodb Database 
+2022-02-22 14:35:13.294 INFO  Connected to the mongodb Database 
+2022-02-22 14:35:28.133 INFO  Connected to the mongodb Database 
+2022-02-22 14:35:30.301 INFO  Connected to the mongodb Database 
+2022-02-22 14:35:39.283 INFO  Connected to the mongodb Database 
+2022-02-22 14:35:41.730 INFO  Connected to the mongodb Database 
+2022-02-22 14:35:46.608 INFO  Connected to the mongodb Database 
+2022-02-22 14:35:49.257 INFO  Connected to the mongodb Database 
+2022-02-22 14:36:06.184 INFO  Connected to the mongodb Database 
+2022-02-22 14:44:43.422 INFO  Searched for all the doctors based on specialityCardiologist 
+2022-02-22 14:47:22.005 INFO  Searched for all the doctors based on specialityOpthalmologist 
+2022-02-22 14:48:16.529 INFO  Searched for all the doctors based on specialityOpthalmologist 
+2022-02-22 14:52:19.908 INFO  Searched for all the doctors based on specialityPaediatrician 
+2022-02-22 14:52:20.028 INFO  Searched for all the doctors based on specialityPaediatrician 
+2022-02-22 14:53:49.068 INFO  Searched for all the doctors based on specialityOpthalmologist 
+2022-02-22 14:57:37.367 INFO  Searched for all the doctors based on specialityOpthalmologist 
+2022-02-22 15:03:20.749 INFO  Connected to the mongodb Database 
+2022-02-22 15:03:28.782 INFO  Searched for all the doctors based on specialityPaediatrician 
+2022-02-22 15:03:37.384 INFO  Doctor data is updated 
+2022-02-22 15:03:37.389 INFO  Doctor Updated successfully6213bdd99ffa738cd16d9352 undefined 
+2022-02-22 15:04:17.118 INFO  Searched for all the doctors based on specialityOpthalmologist 
+2022-02-22 15:04:19.660 INFO  Searched for all the doctors based on specialityOrthodontist 
+2022-02-22 15:04:22.269 INFO  Searched for all the doctors based on specialityPaediatrician 
+2022-02-22 15:06:58.440 INFO  Connected to the mongodb Database 
+2022-02-22 15:07:48.084 INFO  Connected to the mongodb Database 
+2022-02-22 15:07:51.352 INFO  Connected to the mongodb Database 
+2022-02-22 15:08:22.867 INFO  Connected to the mongodb Database 
+2022-02-22 15:09:35.285 INFO  Connected to the mongodb Database 
+2022-02-22 15:10:38.605 INFO  Connected to the mongodb Database 
+2022-02-22 15:10:41.653 INFO  Connected to the mongodb Database 
+2022-02-22 15:11:02.170 INFO  Connected to the mongodb Database 
+2022-02-22 15:11:48.445 INFO  Connected to the mongodb Database 
+2022-02-22 15:11:59.055 INFO  Connected to the mongodb Database 
+2022-02-22 15:19:57.396 INFO  Connected to the mongodb Database 
+2022-02-22 15:20:13.456 INFO  Connected to the mongodb Database 
+2022-02-22 15:20:16.654 INFO  Connected to the mongodb Database 
+2022-02-22 15:20:21.403 INFO  Connected to the mongodb Database 
+2022-02-22 15:20:30.069 INFO  Connected to the mongodb Database 
+2022-02-22 15:20:42.279 INFO  Connected to the mongodb Database 
+2022-02-22 15:20:45.412 INFO  Connected to the mongodb Database 
+2022-02-22 15:20:59.118 INFO  Searched for all the doctors based on specialityPaediatrician 
+2022-02-22 15:20:59.118 ERROR Searched for all the doctors based on speciality failed 
+2022-02-22 15:21:00.070 INFO  Searched for all the doctors based on specialityPaediatrician 
+2022-02-22 15:21:00.070 ERROR Searched for all the doctors based on speciality failed 
+2022-02-22 15:21:43.475 INFO  Doctor data is updated 
+2022-02-22 15:21:43.477 INFO  Doctor Updated successfully6213bde69ffa738cd16d9354 undefined 
+2022-02-22 15:21:43.523 INFO  Doctor data is updated 
+2022-02-22 15:21:43.524 INFO  Doctor Updated successfully6213bde69ffa738cd16d9354 undefined 
+2022-02-22 15:29:26.302 INFO  Connected to the mongodb Database 
+2022-02-22 15:30:27.015 INFO  Connected to the mongodb Database 
+2022-02-22 15:31:13.370 INFO  WELCOME TO CLINIC MANAGEMENT HOME PAGE 
+2022-02-22 15:32:30.339 INFO  WELCOME TO CLINIC MANAGEMENT HOME PAGE 
+2022-02-22 15:33:42.449 INFO  Connected to the mongodb Database 
+2022-02-22 15:34:01.181 INFO  Connected to the mongodb Database 
+2022-02-22 15:34:03.045 INFO  Connected to the mongodb Database 
+2022-02-22 15:34:18.845 INFO  Connected to the mongodb Database 
+2022-02-22 15:34:21.571 INFO  Connected to the mongodb Database 
+2022-02-22 15:34:26.988 INFO  Connected to the mongodb Database 
+2022-02-22 15:34:30.185 INFO  Connected to the mongodb Database 
+2022-02-22 15:34:47.949 INFO  Connected to the mongodb Database 
+2022-02-22 15:34:55.516 INFO  Connected to the mongodb Database 
+2022-02-22 15:34:58.420 INFO  Connected to the mongodb Database 
+2022-02-22 15:35:03.855 INFO  Connected to the mongodb Database 
+2022-02-22 15:35:06.086 INFO  Connected to the mongodb Database 
+2022-02-22 15:35:13.560 INFO  Connected to the mongodb Database 
+2022-02-22 15:35:18.300 INFO  Connected to the mongodb Database 
+2022-02-22 15:35:21.393 INFO  Connected to the mongodb Database 
+2022-02-22 15:35:36.601 INFO  Searched for all the doctors 
+2022-02-22 15:35:36.601 INFO  16 
+2022-02-22 15:35:36.601 ERROR Search doctor failed 
+2022-02-22 15:36:13.221 INFO  Connected to the mongodb Database 
+2022-02-22 15:36:17.371 INFO  Connected to the mongodb Database 
+2022-02-22 15:36:24.261 INFO  Connected to the mongodb Database 
+2022-02-22 15:36:50.967 INFO  Connected to the mongodb Database 
+2022-02-22 15:36:55.459 INFO  Connected to the mongodb Database 
+2022-02-22 15:37:06.583 INFO  Connected to the mongodb Database 
+2022-02-22 15:37:11.049 INFO  Connected to the mongodb Database 
+2022-02-22 15:37:14.258 INFO  Connected to the mongodb Database 
+2022-02-22 15:37:22.638 INFO  Connected to the mongodb Database 
+2022-02-22 15:41:28.644 INFO  Connected to the mongodb Database 
+2022-02-22 15:41:35.408 INFO  Connected to the mongodb Database 
+2022-02-22 15:42:24.343 INFO  Connected to the mongodb Database 
+2022-02-22 15:43:02.046 INFO  Connected to the mongodb Database 
+2022-02-22 15:43:02.063 INFO  WELCOME TO CLINIC MANAGEMENT HOME PAGE 
+2022-02-22 15:43:02.187 INFO  Searched for all the doctors based on specialityOpthalmologist 
+2022-02-22 15:43:02.187 ERROR Searched for all the doctors based on speciality failed 
+2022-02-22 15:43:19.151 INFO  Connected to the mongodb Database 
+2022-02-22 15:47:34.891 INFO  Connected to the mongodb Database 
+2022-02-22 15:47:37.856 INFO  Connected to the mongodb Database 
+2022-02-22 15:48:38.171 INFO  Connected to the mongodb Database 
+2022-02-22 15:48:47.254 INFO  Searched for all the doctors based on speciality:Opthalmologist 
+2022-02-22 15:49:17.165 INFO  Connected to the mongodb Database 
+2022-02-22 15:49:36.412 INFO  Connected to the mongodb Database 
+2022-02-22 15:49:38.787 INFO  Connected to the mongodb Database 
+2022-02-22 15:49:44.437 INFO  Connected to the mongodb Database 
+2022-02-22 15:49:50.360 INFO  Searched for all the doctors based on speciality:Opthalmologist3 
+2022-02-22 15:50:26.899 INFO  Connected to the mongodb Database 
+2022-02-22 15:50:45.279 INFO  Connected to the mongodb Database 
+2022-02-22 15:50:49.482 INFO  Searched for all the doctors based on speciality:OpthalmologistTotal documents found3 
+2022-02-22 15:51:19.335 INFO  Connected to the mongodb Database 
+2022-02-22 15:51:27.154 INFO  Connected to the mongodb Database 
+2022-02-22 15:51:36.393 INFO  Connected to the mongodb Database 
+2022-02-22 15:51:46.295 INFO  Connected to the mongodb Database 
+2022-02-22 15:51:57.574 INFO  Connected to the mongodb Database 
+2022-02-22 15:52:02.886 INFO  Connected to the mongodb Database 
+2022-02-22 15:52:07.036 INFO  Connected to the mongodb Database 
+2022-02-22 15:52:14.789 INFO  Searched for all the doctors based on speciality:Opthalmologist 
+2022-02-22 15:52:14.789 INFO  Total documents found:3 
+2022-02-22 15:52:55.958 INFO  Connected to the mongodb Database 
+2022-02-22 15:52:58.646 INFO  Connected to the mongodb Database 
+2022-02-22 15:53:03.954 INFO  Connected to the mongodb Database 
+2022-02-22 15:53:05.329 INFO  Connected to the mongodb Database 
+2022-02-22 15:53:16.832 INFO  Searched for all the doctors based on speciality:Opthalmologist 
+2022-02-22 15:53:16.832 INFO  Total documents found based on speciality are:3 
+2022-02-22 15:53:57.365 INFO  Connected to the mongodb Database 
+2022-02-22 15:54:00.714 INFO  Connected to the mongodb Database 
+2022-02-22 15:54:02.726 INFO  Connected to the mongodb Database 
+2022-02-22 15:54:06.892 INFO  Searched for all the doctors based on speciality:Opthalmologist 
+2022-02-22 15:54:06.892 INFO  Total documents found based on speciality are:3 
+2022-02-22 15:54:06.892 INFO  [{"_id":"620f32a7a9bbd6d7d7510e51","doctorNumber":2,"name":"Dr Malcolm","qualification":"MD","speciality":"Opthalmologist"},{"_id":"62135af4a344dca6e224ca1b","doctorNumber":11,"name":"Dr Josline","qualification":"MBBS","speciality":"Opthalmologist","__v":0},{"_id":"6213789ebdd16fdc7219c685","doctorNumber":19,"name":"Dr Josphin","qualification":"MD","speciality":"Opthalmologist","__v":0}] 
+2022-02-22 15:54:56.502 INFO  Connected to the mongodb Database 
+2022-02-22 15:54:59.902 INFO  Searched for all the doctors based on speciality:Opthalmologist 
+2022-02-22 15:54:59.902 INFO  Total documents found based on speciality are:3 
+2022-02-22 15:54:59.905 INFO  Documents based on Speciality:{
+  _id: new ObjectId("620f32a7a9bbd6d7d7510e51"),
+  doctorNumber: 2,
+  name: 'Dr Malcolm',
+  qualification: 'MD',
+  speciality: 'Opthalmologist'
+},{
+  _id: new ObjectId("62135af4a344dca6e224ca1b"),
+  doctorNumber: 11,
+  name: 'Dr Josline',
+  qualification: 'MBBS',
+  speciality: 'Opthalmologist',
+  __v: 0
+},{
+  _id: new ObjectId("6213789ebdd16fdc7219c685"),
+  doctorNumber: 19,
+  name: 'Dr Josphin',
+  qualification: 'MD',
+  speciality: 'Opthalmologist',
+  __v: 0
+} 
+2022-02-22 15:55:53.696 INFO  Connected to the mongodb Database 
+2022-02-22 15:56:21.960 INFO  Searched for all the doctors based on speciality:Opthalmologist 
+2022-02-22 15:56:21.960 INFO  Total documents found based on speciality are:3 
+2022-02-22 15:56:21.962 INFO  Documents based on Speciality:{
+  _id: new ObjectId("620f32a7a9bbd6d7d7510e51"),
+  doctorNumber: 2,
+  name: 'Dr Malcolm',
+  qualification: 'MD',
+  speciality: 'Opthalmologist'
+},{
+  _id: new ObjectId("62135af4a344dca6e224ca1b"),
+  doctorNumber: 11,
+  name: 'Dr Josline',
+  qualification: 'MBBS',
+  speciality: 'Opthalmologist',
+  __v: 0
+},{
+  _id: new ObjectId("6213789ebdd16fdc7219c685"),
+  doctorNumber: 19,
+  name: 'Dr Josphin',
+  qualification: 'MD',
+  speciality: 'Opthalmologist',
+  __v: 0
+} 
+2022-02-22 15:56:21.962 ERROR Searched for all the doctors based on speciality failed 
+2022-02-22 15:57:03.163 INFO  WELCOME TO CLINIC MANAGEMENT HOME PAGE 
+2022-02-22 15:58:39.356 INFO  Connected to the mongodb Database 
+2022-02-22 15:58:52.675 INFO  Connected to the mongodb Database 
+2022-02-22 15:58:56.376 INFO  Connected to the mongodb Database 
+2022-02-22 15:59:03.649 INFO  Connected to the mongodb Database 
+2022-02-22 15:59:20.693 INFO  Connected to the mongodb Database 
+2022-02-22 16:20:31.425 INFO  Connected to the mongodb Database 
+2022-02-22 16:20:41.689 INFO  Connected to the mongodb Database 
+2022-02-22 16:20:45.579 INFO  Connected to the mongodb Database 
+2022-02-22 16:20:50.382 INFO  Connected to the mongodb Database 
+2022-02-22 16:20:53.540 INFO  Connected to the mongodb Database 
+2022-02-22 16:21:02.388 INFO  Connected to the mongodb Database 
+2022-02-22 16:21:05.274 INFO  Connected to the mongodb Database 
+2022-02-22 16:21:26.847 INFO  Connected to the mongodb Database 
+2022-02-22 16:21:29.714 INFO  Connected to the mongodb Database 
+2022-02-22 16:21:32.053 INFO  Connected to the mongodb Database 
+2022-02-22 16:21:35.062 INFO  Connected to the mongodb Database 
+2022-02-22 18:17:59.295 INFO  Connected to the mongodb Database 
+2022-02-22 18:19:41.495 INFO  Connected to the mongodb Database 
+2022-02-22 18:19:56.618 INFO  Connected to the mongodb Database 
+2022-02-22 18:20:07.203 INFO  Connected to the mongodb Database 
+2022-02-22 18:20:08.660 INFO  Connected to the mongodb Database 
+2022-02-22 18:20:20.688 INFO  Connected to the mongodb Database 
+2022-02-22 18:20:22.817 INFO  Connected to the mongodb Database 
+2022-02-22 18:20:24.833 INFO  Connected to the mongodb Database 
+2022-02-22 18:20:31.049 INFO  Connected to the mongodb Database 
+2022-02-22 18:20:38.304 INFO  Connected to the mongodb Database 
+2022-02-22 18:22:02.480 INFO  Connected to the mongodb Database 
+2022-02-22 18:24:02.118 INFO  Connected to the mongodb Database 
+2022-02-22 18:24:53.308 INFO  Connected to the mongodb Database 
+2022-02-22 18:25:01.515 INFO  Connected to the mongodb Database 
+2022-02-22 18:25:09.836 INFO  Connected to the mongodb Database 
+2022-02-22 18:25:16.886 INFO  Connected to the mongodb Database 
+2022-02-22 18:25:22.841 INFO  Connected to the mongodb Database 
+2022-02-22 18:25:24.841 INFO  Connected to the mongodb Database 
+2022-02-22 18:25:27.356 INFO  Connected to the mongodb Database 
+2022-02-22 18:26:12.037 INFO  Connected to the mongodb Database 
+2022-02-22 18:27:59.559 INFO  Connected to the mongodb Database 
+2022-02-22 18:28:01.133 INFO  Connected to the mongodb Database 
+2022-02-22 18:28:17.258 INFO  Connected to the mongodb Database 
+2022-02-22 18:28:29.089 INFO  Connected to the mongodb Database 
+2022-02-22 18:35:57.425 INFO  Connected to the mongodb Database 
+2022-02-22 18:36:53.437 INFO  Connected to the mongodb Database 
+2022-02-22 18:37:02.534 INFO  Connected to the mongodb Database 
+2022-02-22 18:37:08.459 INFO  Connected to the mongodb Database 
+2022-02-22 18:37:14.441 INFO  Connected to the mongodb Database 
+2022-02-22 18:37:25.712 INFO  Connected to the mongodb Database 
+2022-02-22 18:37:33.579 INFO  Connected to the mongodb Database 
+2022-02-22 18:37:42.072 INFO  Connected to the mongodb Database 
+2022-02-22 18:37:47.127 INFO  Connected to the mongodb Database 
+2022-02-22 18:37:50.578 INFO  Connected to the mongodb Database 
+2022-02-22 18:37:53.793 INFO  Connected to the mongodb Database 
+2022-02-22 18:37:58.716 INFO  Connected to the mongodb Database 
+2022-02-22 18:38:03.211 INFO  Connected to the mongodb Database 
+2022-02-22 18:38:10.421 INFO  Connected to the mongodb Database 
+2022-02-22 18:38:44.106 INFO  Connected to the mongodb Database 
+2022-02-22 18:39:30.824 INFO  Connected to the mongodb Database 
+2022-02-22 18:39:41.263 INFO  Connected to the mongodb Database 
+2022-02-22 18:39:46.564 INFO  Connected to the mongodb Database 
+2022-02-22 18:39:48.750 INFO  Connected to the mongodb Database 
+2022-02-22 18:39:57.783 INFO  Connected to the mongodb Database 
+2022-02-22 18:40:06.394 INFO  Connected to the mongodb Database 
+2022-02-22 18:41:22.962 INFO  Connected to the mongodb Database 
+2022-02-22 18:41:24.900 INFO  Connected to the mongodb Database 
+2022-02-22 18:41:29.876 INFO  Connected to the mongodb Database 
+2022-02-22 18:41:32.593 INFO  Connected to the mongodb Database 
+2022-02-22 18:41:36.302 INFO  Connected to the mongodb Database 
+2022-02-22 18:42:22.228 INFO  Connected to the mongodb Database 
+2022-02-22 18:42:30.221 INFO  Connected to the mongodb Database 
+2022-02-22 18:42:39.226 INFO  Connected to the mongodb Database 
+2022-02-22 18:43:15.556 INFO  Connected to the mongodb Database 
+2022-02-22 18:44:51.176 INFO  Connected to the mongodb Database 
+2022-02-22 18:44:56.197 INFO  Connected to the mongodb Database 
+2022-02-22 18:45:05.131 INFO  Connected to the mongodb Database 
+2022-02-22 18:45:47.806 INFO  Connected to the mongodb Database 
+2022-02-22 18:45:52.543 INFO  Connected to the mongodb Database 
+2022-02-22 18:45:57.578 INFO  Connected to the mongodb Database 
+2022-02-22 18:46:02.675 INFO  Connected to the mongodb Database 
+2022-02-22 18:46:04.223 INFO  Connected to the mongodb Database 
+2022-02-22 18:46:13.569 INFO  Connected to the mongodb Database 
+2022-02-22 18:46:20.440 INFO  Connected to the mongodb Database 
+2022-02-22 18:46:24.093 INFO  Connected to the mongodb Database 
+2022-02-22 18:47:01.640 INFO  Connected to the mongodb Database 
+2022-02-22 18:47:05.406 INFO  Connected to the mongodb Database 
+2022-02-22 18:47:09.274 INFO  Connected to the mongodb Database 
+2022-02-22 18:47:12.975 INFO  Connected to the mongodb Database 
+2022-02-22 18:47:21.122 INFO  Connected to the mongodb Database 
+2022-02-22 18:47:23.431 INFO  Connected to the mongodb Database 
+2022-02-22 18:47:28.516 INFO  Connected to the mongodb Database 
+2022-02-22 18:47:33.660 INFO  Connected to the mongodb Database 
+2022-02-22 18:47:38.394 INFO  Connected to the mongodb Database 
+2022-02-22 18:47:41.421 INFO  Connected to the mongodb Database 
+2022-02-22 18:47:45.705 INFO  Connected to the mongodb Database 
+2022-02-22 18:47:50.222 INFO  Connected to the mongodb Database 
+2022-02-22 18:47:52.519 INFO  Connected to the mongodb Database 
+2022-02-22 18:48:50.349 INFO  Connected to the mongodb Database 
+2022-02-22 18:48:51.810 INFO  Connected to the mongodb Database 
+2022-02-22 18:48:59.273 INFO  Connected to the mongodb Database 
+2022-02-22 18:49:17.886 INFO  Connected to the mongodb Database 
+2022-02-22 18:49:21.201 INFO  Connected to the mongodb Database 
+2022-02-22 18:49:38.787 INFO  Connected to the mongodb Database 
+2022-02-22 18:49:44.753 INFO  Connected to the mongodb Database 
+2022-02-22 18:49:46.125 INFO  Connected to the mongodb Database 
+2022-02-22 18:49:56.794 INFO  Connected to the mongodb Database 
+2022-02-22 18:50:00.267 INFO  Connected to the mongodb Database 
+2022-02-22 18:50:11.434 INFO  Connected to the mongodb Database 
+2022-02-22 18:50:14.127 INFO  Connected to the mongodb Database 
+2022-02-22 18:50:25.411 INFO  Connected to the mongodb Database 
+2022-02-22 18:50:27.481 INFO  Connected to the mongodb Database 
+2022-02-22 18:50:30.441 INFO  Connected to the mongodb Database 
+2022-02-22 18:50:55.559 INFO  Connected to the mongodb Database 
+2022-02-22 18:52:03.320 INFO  Connected to the mongodb Database 
+2022-02-22 18:52:28.328 INFO  WELCOME TO CLINIC MANAGEMENT HOME PAGE 
+2022-02-22 18:53:43.846 INFO  Connected to the mongodb Database 
+2022-02-22 18:53:48.112 INFO  Searched for all the doctors And Total Documents found: 16+ And the documents are:{
+  _id: new ObjectId("620f313ba9bbd6d7d7510e50"),
+  doctorNumber: 1,
+  name: 'Dr John',
+  qualification: 'MD',
+  speciality: 'Orthodontist'
+},{
+  _id: new ObjectId("620f32a7a9bbd6d7d7510e51"),
+  doctorNumber: 2,
+  name: 'Dr Malcolm',
+  qualification: 'MD',
+  speciality: 'Opthalmologist'
+},{
+  _id: new ObjectId("620f34cfa9bbd6d7d7510e53"),
+  doctorNumber: 4,
+  name: 'Dr Shaun',
+  qualification: 'MD',
+  speciality: 'Gastroentrologist'
+},{
+  _id: new ObjectId("620f35a8a9bbd6d7d7510e55"),
+  doctorNumber: 6,
+  name: 'Dr Sharon',
+  qualification: 'MBBS',
+  speciality: 'Gastroentrologist'
+},{
+  _id: new ObjectId("620f35f4a9bbd6d7d7510e56"),
+  doctorNumber: 7,
+  name: 'Dr Olivia',
+  qualification: 'MBBS',
+  speciality: 'Cardiologist'
+},{
+  _id: new ObjectId("620fa27fb8349b6735b46013"),
+  doctorNumber: 8,
+  name: 'Dr Ashok',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("620fa4c7b8349b6735b46019"),
+  doctorNumber: 9,
+  name: 'Dr Arun',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("62122a3148c4bd8094d1e2b3"),
+  doctorNumber: 10,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("62135af4a344dca6e224ca1b"),
+  doctorNumber: 11,
+  name: 'Dr Josline',
+  qualification: 'MBBS',
+  speciality: 'Opthalmologist',
+  __v: 0
+},{
+  _id: new ObjectId("62135bae67bd97d0475cc0e9"),
+  doctorNumber: 12,
+  name: 'Dr Johny',
+  qualification: 'MBBS',
+  speciality: 'Gastroentrologist',
+  __v: 0
+},{
+  _id: new ObjectId("6213789ebdd16fdc7219c685"),
+  doctorNumber: 19,
+  name: 'Dr Josphin',
+  qualification: 'MD',
+  speciality: 'Opthalmologist',
+  __v: 0
+},{
+  _id: new ObjectId("6213bdc79ffa738cd16d933c"),
+  doctorNumber: 20,
+  name: 'Dr Jerald',
+  qualification: 'MD',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("6213bdd59ffa738cd16d9346"),
+  doctorNumber: 21,
+  name: 'Dr Jerald',
+  qualification: 'MD',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("6213bdd99ffa738cd16d9352"),
+  doctorNumber: 22,
+  name: 'Dr Jerald',
+  qualification: 'MBBS',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("6213bde69ffa738cd16d9354"),
+  doctorNumber: 23,
+  name: 'Dr Joslin',
+  qualification: 'MD',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("6213bf949ffa738cd16d935a"),
+  doctorNumber: 25,
+  name: 'Dr Joylin',
+  qualification: 'MBBS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             MD                                            ',
+  speciality: 'Paediatrician',
+  __v: 0
+} 
+2022-02-22 18:54:14.012 INFO  Connected to the mongodb Database 
+2022-02-22 18:54:18.493 INFO  Searched for all the doctors And Total Documents found: 16 And the documents are:{
+  _id: new ObjectId("620f313ba9bbd6d7d7510e50"),
+  doctorNumber: 1,
+  name: 'Dr John',
+  qualification: 'MD',
+  speciality: 'Orthodontist'
+},{
+  _id: new ObjectId("620f32a7a9bbd6d7d7510e51"),
+  doctorNumber: 2,
+  name: 'Dr Malcolm',
+  qualification: 'MD',
+  speciality: 'Opthalmologist'
+},{
+  _id: new ObjectId("620f34cfa9bbd6d7d7510e53"),
+  doctorNumber: 4,
+  name: 'Dr Shaun',
+  qualification: 'MD',
+  speciality: 'Gastroentrologist'
+},{
+  _id: new ObjectId("620f35a8a9bbd6d7d7510e55"),
+  doctorNumber: 6,
+  name: 'Dr Sharon',
+  qualification: 'MBBS',
+  speciality: 'Gastroentrologist'
+},{
+  _id: new ObjectId("620f35f4a9bbd6d7d7510e56"),
+  doctorNumber: 7,
+  name: 'Dr Olivia',
+  qualification: 'MBBS',
+  speciality: 'Cardiologist'
+},{
+  _id: new ObjectId("620fa27fb8349b6735b46013"),
+  doctorNumber: 8,
+  name: 'Dr Ashok',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("620fa4c7b8349b6735b46019"),
+  doctorNumber: 9,
+  name: 'Dr Arun',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("62122a3148c4bd8094d1e2b3"),
+  doctorNumber: 10,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("62135af4a344dca6e224ca1b"),
+  doctorNumber: 11,
+  name: 'Dr Josline',
+  qualification: 'MBBS',
+  speciality: 'Opthalmologist',
+  __v: 0
+},{
+  _id: new ObjectId("62135bae67bd97d0475cc0e9"),
+  doctorNumber: 12,
+  name: 'Dr Johny',
+  qualification: 'MBBS',
+  speciality: 'Gastroentrologist',
+  __v: 0
+},{
+  _id: new ObjectId("6213789ebdd16fdc7219c685"),
+  doctorNumber: 19,
+  name: 'Dr Josphin',
+  qualification: 'MD',
+  speciality: 'Opthalmologist',
+  __v: 0
+},{
+  _id: new ObjectId("6213bdc79ffa738cd16d933c"),
+  doctorNumber: 20,
+  name: 'Dr Jerald',
+  qualification: 'MD',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("6213bdd59ffa738cd16d9346"),
+  doctorNumber: 21,
+  name: 'Dr Jerald',
+  qualification: 'MD',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("6213bdd99ffa738cd16d9352"),
+  doctorNumber: 22,
+  name: 'Dr Jerald',
+  qualification: 'MBBS',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("6213bde69ffa738cd16d9354"),
+  doctorNumber: 23,
+  name: 'Dr Joslin',
+  qualification: 'MD',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("6213bf949ffa738cd16d935a"),
+  doctorNumber: 25,
+  name: 'Dr Joylin',
+  qualification: 'MBBS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             MD                                            ',
+  speciality: 'Paediatrician',
+  __v: 0
+} 
+2022-02-22 18:55:18.316 INFO  Connected to the mongodb Database 
+2022-02-22 18:55:26.952 INFO  Connected to the mongodb Database 
+2022-02-22 18:55:28.581 INFO  Connected to the mongodb Database 
+2022-02-22 18:57:10.586 INFO  Connected to the mongodb Database 
+2022-02-22 18:57:49.920 INFO  Connected to the mongodb Database 
+2022-02-22 19:00:48.659 INFO  Connected to the mongodb Database 
+2022-02-22 20:13:20.764 INFO  Connected to the mongodb Database 
+2022-02-22 20:18:46.997 INFO  Connected to the mongodb Database 
+2022-02-22 20:18:51.146 INFO  Connected to the mongodb Database 
+2022-02-22 20:20:41.458 INFO  Connected to the mongodb Database 
+2022-02-22 20:21:19.273 INFO  Connected to the mongodb Database 
+2022-02-22 20:21:45.043 INFO  Connected to the mongodb Database 
+2022-02-22 20:22:41.273 INFO  Connected to the mongodb Database 
+2022-02-22 20:24:33.589 INFO  Connected to the mongodb Database 
+2022-02-22 20:24:45.134 INFO  WELCOME TO CLINIC MANAGEMENT HOME PAGE 
+2022-02-22 20:24:57.718 INFO  Searched for all the doctors And Total Documents found: 16 And the documents are:{
+  _id: new ObjectId("620f313ba9bbd6d7d7510e50"),
+  doctorNumber: 1,
+  name: 'Dr John',
+  qualification: 'MD',
+  speciality: 'Orthodontist'
+},{
+  _id: new ObjectId("620f32a7a9bbd6d7d7510e51"),
+  doctorNumber: 2,
+  name: 'Dr Malcolm',
+  qualification: 'MD',
+  speciality: 'Opthalmologist'
+},{
+  _id: new ObjectId("620f34cfa9bbd6d7d7510e53"),
+  doctorNumber: 4,
+  name: 'Dr Shaun',
+  qualification: 'MD',
+  speciality: 'Gastroentrologist'
+},{
+  _id: new ObjectId("620f35a8a9bbd6d7d7510e55"),
+  doctorNumber: 6,
+  name: 'Dr Sharon',
+  qualification: 'MBBS',
+  speciality: 'Gastroentrologist'
+},{
+  _id: new ObjectId("620f35f4a9bbd6d7d7510e56"),
+  doctorNumber: 7,
+  name: 'Dr Olivia',
+  qualification: 'MBBS',
+  speciality: 'Cardiologist'
+},{
+  _id: new ObjectId("620fa27fb8349b6735b46013"),
+  doctorNumber: 8,
+  name: 'Dr Ashok',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("620fa4c7b8349b6735b46019"),
+  doctorNumber: 9,
+  name: 'Dr Arun',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("62122a3148c4bd8094d1e2b3"),
+  doctorNumber: 10,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("62135af4a344dca6e224ca1b"),
+  doctorNumber: 11,
+  name: 'Dr Josline',
+  qualification: 'MBBS',
+  speciality: 'Opthalmologist',
+  __v: 0
+},{
+  _id: new ObjectId("62135bae67bd97d0475cc0e9"),
+  doctorNumber: 12,
+  name: 'Dr Johny',
+  qualification: 'MBBS',
+  speciality: 'Gastroentrologist',
+  __v: 0
+},{
+  _id: new ObjectId("6213789ebdd16fdc7219c685"),
+  doctorNumber: 19,
+  name: 'Dr Josphin',
+  qualification: 'MD',
+  speciality: 'Opthalmologist',
+  __v: 0
+},{
+  _id: new ObjectId("6213bdc79ffa738cd16d933c"),
+  doctorNumber: 20,
+  name: 'Dr Jerald',
+  qualification: 'MD',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("6213bdd59ffa738cd16d9346"),
+  doctorNumber: 21,
+  name: 'Dr Jerald',
+  qualification: 'MD',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("6213bdd99ffa738cd16d9352"),
+  doctorNumber: 22,
+  name: 'Dr Jerald',
+  qualification: 'MBBS',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("6213bde69ffa738cd16d9354"),
+  doctorNumber: 23,
+  name: 'Dr Joslin',
+  qualification: 'MD',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("6213bf949ffa738cd16d935a"),
+  doctorNumber: 25,
+  name: 'Dr Joylin',
+  qualification: 'MBBS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             MD                                            ',
+  speciality: 'Paediatrician',
+  __v: 0
+} 
+2022-02-22 20:26:29.692 INFO  Connected to the mongodb Database 
+2022-02-22 20:26:34.941 INFO  Searched for all the doctors based on speciality: Opthalmologist 
+2022-02-22 20:26:34.941 INFO  Total documents found based on speciality are: 3 
+2022-02-22 20:26:34.941 INFO  Documents based on Speciality:undefined 
+2022-02-22 20:27:01.567 INFO  Connected to the mongodb Database 
+2022-02-22 20:27:08.069 INFO  Searched for all the doctors based on speciality: Opthalmologist 
+2022-02-22 20:27:08.069 INFO  Total documents found based on speciality are: 3 
+2022-02-22 20:27:08.075 INFO  Documents based on Speciality:{
+  _id: new ObjectId("620f32a7a9bbd6d7d7510e51"),
+  doctorNumber: 2,
+  name: 'Dr Malcolm',
+  qualification: 'MD',
+  speciality: 'Opthalmologist'
+},{
+  _id: new ObjectId("62135af4a344dca6e224ca1b"),
+  doctorNumber: 11,
+  name: 'Dr Josline',
+  qualification: 'MBBS',
+  speciality: 'Opthalmologist',
+  __v: 0
+},{
+  _id: new ObjectId("6213789ebdd16fdc7219c685"),
+  doctorNumber: 19,
+  name: 'Dr Josphin',
+  qualification: 'MD',
+  speciality: 'Opthalmologist',
+  __v: 0
+} 
+2022-02-22 20:27:39.869 INFO  Connected to the mongodb Database 
+2022-02-22 20:27:41.747 INFO  Connected to the mongodb Database 
+2022-02-22 20:27:44.150 INFO  Connected to the mongodb Database 
+2022-02-22 20:28:01.692 INFO  Searched doctors based on id: undefined + Total documents found is:1 
+2022-02-22 20:28:18.983 INFO  Connected to the mongodb Database 
+2022-02-22 20:28:22.959 INFO  Searched doctors based on id: 620f313ba9bbd6d7d7510e50 + Total documents found is:1 
+2022-02-22 20:28:40.082 INFO  Connected to the mongodb Database 
+2022-02-22 20:28:45.435 INFO  Searched doctors based on id: 620f313ba9bbd6d7d7510e50 ,Total documents found is:1 
+2022-02-22 20:29:17.700 INFO  Connected to the mongodb Database 
+2022-02-22 20:29:18.692 INFO  Searched doctors based on id: 620f313ba9bbd6d7d7510e50 
+2022-02-22 20:29:45.579 INFO  Searched doctors based on Doctor Number:1 
+2022-02-22 20:29:45.579 INFO  Total documents found for Searched doctors based on Doctor Number:1 
+2022-02-22 20:30:17.465 INFO  Searched doctors based on Doctor Number:2 
+2022-02-22 20:30:17.465 INFO  Total documents found for Searched doctors based on Doctor Number:1 
+2022-02-22 20:31:06.707 INFO  Connected to the mongodb Database 
+2022-02-22 20:31:19.045 INFO  Searched doctors based on Doctor Number:2 
+2022-02-22 20:31:40.282 INFO  Searched doctors based on name: Dr John 
+2022-02-22 20:31:40.282 INFO  Total documents found for Searched doctors based on Doctor Name:1 
+2022-02-22 20:33:04.232 INFO  Searched doctors based on qualification:MBBS 
+2022-02-22 20:33:04.232 INFO  Total documents found for Searched doctors based on Doctor Qualification:8 
+2022-02-22 20:33:29.940 INFO  Connected to the mongodb Database 
+2022-02-22 20:33:33.208 INFO  Connected to the mongodb Database 
+2022-02-22 20:33:42.096 INFO  Connected to the mongodb Database 
+2022-02-22 20:33:44.249 INFO  Connected to the mongodb Database 
+2022-02-22 20:33:50.948 INFO  Connected to the mongodb Database 
+2022-02-22 20:33:53.300 INFO  Connected to the mongodb Database 
+2022-02-22 20:33:57.886 INFO  Connected to the mongodb Database 
+2022-02-22 20:34:00.494 INFO  Searched doctors based on qualification:MBBS and the documents are:{
+  _id: new ObjectId("620f35a8a9bbd6d7d7510e55"),
+  doctorNumber: 6,
+  name: 'Dr Sharon',
+  qualification: 'MBBS',
+  speciality: 'Gastroentrologist'
+},{
+  _id: new ObjectId("620f35f4a9bbd6d7d7510e56"),
+  doctorNumber: 7,
+  name: 'Dr Olivia',
+  qualification: 'MBBS',
+  speciality: 'Cardiologist'
+},{
+  _id: new ObjectId("620fa27fb8349b6735b46013"),
+  doctorNumber: 8,
+  name: 'Dr Ashok',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("620fa4c7b8349b6735b46019"),
+  doctorNumber: 9,
+  name: 'Dr Arun',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("62122a3148c4bd8094d1e2b3"),
+  doctorNumber: 10,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("62135af4a344dca6e224ca1b"),
+  doctorNumber: 11,
+  name: 'Dr Josline',
+  qualification: 'MBBS',
+  speciality: 'Opthalmologist',
+  __v: 0
+},{
+  _id: new ObjectId("62135bae67bd97d0475cc0e9"),
+  doctorNumber: 12,
+  name: 'Dr Johny',
+  qualification: 'MBBS',
+  speciality: 'Gastroentrologist',
+  __v: 0
+},{
+  _id: new ObjectId("6213bdd99ffa738cd16d9352"),
+  doctorNumber: 22,
+  name: 'Dr Jerald',
+  qualification: 'MBBS',
+  speciality: 'Paediatrician',
+  __v: 0
+} 
+2022-02-22 20:34:00.494 INFO  Total documents found for Searched doctors based on Doctor Qualification:8 
+2022-02-22 20:34:38.697 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 25 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":25}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 25 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-22 20:34:48.373 INFO  New Doctor Got Inserted To The Database 
+2022-02-22 20:35:34.540 INFO  Connected to the mongodb Database 
+2022-02-22 20:35:40.235 INFO  New Doctor Got Inserted To The Database 
+2022-02-22 20:36:17.461 INFO  Connected to the mongodb Database 
+2022-02-22 20:36:38.436 INFO  New Doctor Got Inserted To The Database 
+2022-02-22 20:37:16.592 INFO  Connected to the mongodb Database 
+2022-02-22 20:37:18.465 INFO  Connected to the mongodb Database 
+2022-02-22 20:37:30.810 INFO  Connected to the mongodb Database 
+2022-02-22 20:37:56.069 INFO  Connected to the mongodb Database 
+2022-02-22 20:38:06.740 INFO  Connected to the mongodb Database 
+2022-02-22 20:39:02.433 INFO  Doctor data is updated 
+2022-02-22 20:39:02.439 INFO  Doctor Updated successfully620f313ba9bbd6d7d7510e50 undefined 
+2022-02-22 20:39:23.161 INFO  Connected to the mongodb Database 
+2022-02-22 20:39:26.035 INFO  Connected to the mongodb Database 
+2022-02-22 20:39:31.729 INFO  Doctor data is updated 
+2022-02-22 20:39:31.735 INFO  Doctor Updated successfully:undefined undefined 
+2022-02-22 20:39:52.709 INFO  Connected to the mongodb Database 
+2022-02-22 20:39:55.435 INFO  Connected to the mongodb Database 
+2022-02-22 20:39:57.789 INFO  Doctor data is updated 
+2022-02-22 20:39:57.796 INFO  Doctor Updated successfully:undefined undefined 
+2022-02-22 20:44:03.677 INFO  Connected to the mongodb Database 
+2022-02-22 20:44:15.728 INFO  Connected to the mongodb Database 
+2022-02-22 20:44:18.446 INFO  Connected to the mongodb Database 
+2022-02-22 20:44:26.769 INFO  Doctor data is updated 
+2022-02-22 20:44:26.775 INFO  Doctor Updated successfully:620f313ba9bbd6d7d7510e50 undefined 
+2022-02-22 20:45:19.336 INFO  Connected to the mongodb Database 
+2022-02-22 20:45:21.730 INFO  Doctor data is updated 
+2022-02-22 20:45:21.735 INFO  Doctor Updated successfully:620f313ba9bbd6d7d7510e50 
+2022-02-22 20:50:07.647 INFO  Connected to the mongodb Database 
+2022-02-22 20:50:16.305 INFO  Connected to the mongodb Database 
+2022-02-22 20:50:21.243 INFO  Connected to the mongodb Database 
+2022-02-22 20:50:30.451 INFO  Connected to the mongodb Database 
+2022-02-22 20:50:38.156 INFO  Connected to the mongodb Database 
+2022-02-22 20:50:40.503 INFO  Connected to the mongodb Database 
+2022-02-22 20:50:42.146 INFO  Connected to the mongodb Database 
+2022-02-22 20:50:47.254 INFO  Connected to the mongodb Database 
+2022-02-22 20:50:55.766 INFO  Connected to the mongodb Database 
+2022-02-22 20:51:10.866 INFO  Connected to the mongodb Database 
+2022-02-22 20:51:19.332 INFO  Connected to the mongodb Database 
+2022-02-22 20:51:21.756 INFO  Connected to the mongodb Database 
+2022-02-22 20:51:23.235 INFO  Connected to the mongodb Database 
+2022-02-22 20:51:24.776 INFO  Connected to the mongodb Database 
+2022-02-22 20:52:58.280 INFO  Connected to the mongodb Database 
+2022-02-22 20:53:00.092 INFO  Connected to the mongodb Database 
+2022-02-22 21:08:02.593 INFO  Searched for all the doctors based on speciality: Gastroentrologist 
+2022-02-22 21:08:02.593 INFO  Total documents found based on speciality are: 3 
+2022-02-22 21:08:02.602 INFO  Documents based on Speciality:{
+  _id: new ObjectId("620f34cfa9bbd6d7d7510e53"),
+  doctorNumber: 4,
+  name: 'Dr Shaun',
+  qualification: 'MD',
+  speciality: 'Gastroentrologist'
+},{
+  _id: new ObjectId("620f35a8a9bbd6d7d7510e55"),
+  doctorNumber: 6,
+  name: 'Dr Sharon',
+  qualification: 'MBBS',
+  speciality: 'Gastroentrologist'
+},{
+  _id: new ObjectId("62135bae67bd97d0475cc0e9"),
+  doctorNumber: 12,
+  name: 'Dr Johny',
+  qualification: 'MBBS',
+  speciality: 'Gastroentrologist',
+  __v: 0
+} 
+2022-02-22 21:08:02.929 INFO  Searched for all the doctors based on speciality: Gastroentrologist 
+2022-02-22 21:08:02.929 INFO  Total documents found based on speciality are: 3 
+2022-02-22 21:08:02.931 INFO  Documents based on Speciality:{
+  _id: new ObjectId("620f34cfa9bbd6d7d7510e53"),
+  doctorNumber: 4,
+  name: 'Dr Shaun',
+  qualification: 'MD',
+  speciality: 'Gastroentrologist'
+},{
+  _id: new ObjectId("620f35a8a9bbd6d7d7510e55"),
+  doctorNumber: 6,
+  name: 'Dr Sharon',
+  qualification: 'MBBS',
+  speciality: 'Gastroentrologist'
+},{
+  _id: new ObjectId("62135bae67bd97d0475cc0e9"),
+  doctorNumber: 12,
+  name: 'Dr Johny',
+  qualification: 'MBBS',
+  speciality: 'Gastroentrologist',
+  __v: 0
+} 
+2022-02-22 21:10:43.478 INFO  Searched for all the doctors based on speciality: Gastroentrologist 
+2022-02-22 21:10:43.478 INFO  Total documents found based on speciality are: 3 
+2022-02-22 21:10:43.481 INFO  Documents based on Speciality:{
+  _id: new ObjectId("620f34cfa9bbd6d7d7510e53"),
+  doctorNumber: 4,
+  name: 'Dr Shaun',
+  qualification: 'MD',
+  speciality: 'Gastroentrologist'
+},{
+  _id: new ObjectId("620f35a8a9bbd6d7d7510e55"),
+  doctorNumber: 6,
+  name: 'Dr Sharon',
+  qualification: 'MBBS',
+  speciality: 'Gastroentrologist'
+},{
+  _id: new ObjectId("62135bae67bd97d0475cc0e9"),
+  doctorNumber: 12,
+  name: 'Dr Johny',
+  qualification: 'MBBS',
+  speciality: 'Gastroentrologist',
+  __v: 0
+} 
+2022-02-22 21:10:51.135 INFO  Searched for all the doctors based on speciality: Paediatrician 
+2022-02-22 21:10:51.135 INFO  Total documents found based on speciality are: 5 
+2022-02-22 21:10:51.137 INFO  Documents based on Speciality:{
+  _id: new ObjectId("6213bdc79ffa738cd16d933c"),
+  doctorNumber: 20,
+  name: 'Dr Jerald',
+  qualification: 'MD',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("6213bdd59ffa738cd16d9346"),
+  doctorNumber: 21,
+  name: 'Dr Jerald',
+  qualification: 'MD',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("6213bdd99ffa738cd16d9352"),
+  doctorNumber: 22,
+  name: 'Dr Jerald',
+  qualification: 'MBBS',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("6213bde69ffa738cd16d9354"),
+  doctorNumber: 23,
+  name: 'Dr Joslin',
+  qualification: 'MD',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("6213bf949ffa738cd16d935a"),
+  doctorNumber: 25,
+  name: 'Dr Joylin',
+  qualification: 'MBBS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             MD                                            ',
+  speciality: 'Paediatrician',
+  __v: 0
+} 
+2022-02-22 21:11:12.086 INFO  Doctor data is updated 
+2022-02-22 21:11:12.088 INFO  Doctor Updated successfully:6213bdc79ffa738cd16d933c 
+2022-02-22 21:12:19.715 ERROR Doctors validation failed: doctorNumber: Path `doctorNumber` is required., name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+{"errors":{"doctorNumber":{"name":"ValidatorError","message":"Path `doctorNumber` is required.","properties":{"message":"Path `doctorNumber` is required.","type":"required","path":"doctorNumber","value":null},"kind":"required","path":"doctorNumber","value":null},"name":{"name":"ValidatorError","message":"Enter Name.","properties":{"message":"Enter Name.","type":"required","path":"name","value":""},"kind":"required","path":"name","value":""},"qualification":{"name":"ValidatorError","message":"Enter Qualification.","properties":{"message":"Enter Qualification.","type":"required","path":"qualification","value":""},"kind":"required","path":"qualification","value":""},"speciality":{"name":"ValidatorError","message":"Select Speciality.","properties":{"message":"Select Speciality.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"Doctors validation failed","name":"ValidationError","message":"Doctors validation failed: doctorNumber: Path `doctorNumber` is required., name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality."}
+ValidationError: Doctors validation failed: doctorNumber: Path `doctorNumber` is required., name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+    at model.Document.invalidate (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2938:32)
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2729:17
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\schematype.js:1324:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+2022-02-22 21:13:04.090 INFO  Searched for all the doctors based on speciality: Opthalmologist 
+2022-02-22 21:13:04.090 INFO  Total documents found based on speciality are: 3 
+2022-02-22 21:13:04.091 INFO  Documents based on Speciality:{
+  _id: new ObjectId("620f32a7a9bbd6d7d7510e51"),
+  doctorNumber: 2,
+  name: 'Dr Malcolm',
+  qualification: 'MD',
+  speciality: 'Opthalmologist'
+},{
+  _id: new ObjectId("62135af4a344dca6e224ca1b"),
+  doctorNumber: 11,
+  name: 'Dr Josline',
+  qualification: 'MBBS',
+  speciality: 'Opthalmologist',
+  __v: 0
+},{
+  _id: new ObjectId("6213789ebdd16fdc7219c685"),
+  doctorNumber: 19,
+  name: 'Dr Josphin',
+  qualification: 'MD',
+  speciality: 'Opthalmologist',
+  __v: 0
+} 
+2022-02-22 21:14:45.120 INFO  Searched for all the doctors based on speciality: Paediatrician 
+2022-02-22 21:14:45.120 INFO  Total documents found based on speciality are: 5 
+2022-02-22 21:14:45.121 INFO  Documents based on Speciality:{
+  _id: new ObjectId("6213bdc79ffa738cd16d933c"),
+  doctorNumber: 20,
+  name: 'Dr Jerald',
+  qualification: 'MD',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("6213bdd59ffa738cd16d9346"),
+  doctorNumber: 21,
+  name: 'Dr Jerald',
+  qualification: 'MD',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("6213bdd99ffa738cd16d9352"),
+  doctorNumber: 22,
+  name: 'Dr Jerald',
+  qualification: 'MBBS',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("6213bde69ffa738cd16d9354"),
+  doctorNumber: 23,
+  name: 'Dr Joslin',
+  qualification: 'MD',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("6213bf949ffa738cd16d935a"),
+  doctorNumber: 25,
+  name: 'Dr Joylin',
+  qualification: 'MBBS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             MD                                            ',
+  speciality: 'Paediatrician',
+  __v: 0
+} 
+2022-02-22 21:16:08.920 INFO  Searched for all the doctors based on speciality: Paediatrician 
+2022-02-22 21:16:08.920 INFO  Total documents found based on speciality are: 5 
+2022-02-22 21:16:08.920 INFO  Documents based on Speciality:{
+  _id: new ObjectId("6213bdc79ffa738cd16d933c"),
+  doctorNumber: 20,
+  name: 'Dr Jerald',
+  qualification: 'MD',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("6213bdd59ffa738cd16d9346"),
+  doctorNumber: 21,
+  name: 'Dr Jerald',
+  qualification: 'MD',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("6213bdd99ffa738cd16d9352"),
+  doctorNumber: 22,
+  name: 'Dr Jerald',
+  qualification: 'MBBS',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("6213bde69ffa738cd16d9354"),
+  doctorNumber: 23,
+  name: 'Dr Joslin',
+  qualification: 'MD',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("6213bf949ffa738cd16d935a"),
+  doctorNumber: 25,
+  name: 'Dr Joylin',
+  qualification: 'MBBS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             MD                                            ',
+  speciality: 'Paediatrician',
+  __v: 0
+} 
+2022-02-22 21:16:19.284 INFO  Searched for all the doctors based on speciality: Opthalmologist 
+2022-02-22 21:16:19.284 INFO  Total documents found based on speciality are: 3 
+2022-02-22 21:16:19.287 INFO  Documents based on Speciality:{
+  _id: new ObjectId("620f32a7a9bbd6d7d7510e51"),
+  doctorNumber: 2,
+  name: 'Dr Malcolm',
+  qualification: 'MD',
+  speciality: 'Opthalmologist'
+},{
+  _id: new ObjectId("62135af4a344dca6e224ca1b"),
+  doctorNumber: 11,
+  name: 'Dr Josline',
+  qualification: 'MBBS',
+  speciality: 'Opthalmologist',
+  __v: 0
+},{
+  _id: new ObjectId("6213789ebdd16fdc7219c685"),
+  doctorNumber: 19,
+  name: 'Dr Josphin',
+  qualification: 'MD',
+  speciality: 'Opthalmologist',
+  __v: 0
+} 

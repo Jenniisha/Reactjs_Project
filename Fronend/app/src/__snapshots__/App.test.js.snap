@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Add Doctor snapshot Taking snapshot of App 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "@@observable": [Function],
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": Object {
+        "addNestedSub": [Function],
+        "getListeners": [Function],
+        "handleChangeWrapper": [Function],
+        "isSubscribed": [Function],
+        "notifyNestedSubs": [Function],
+        "onStateChange": [Function],
+        "trySubscribe": [Function],
+        "tryUnsubscribe": [Function],
+      },
+    }
+  }
+>
+  <App />
+</ContextProvider>
+`;
+
+exports[`Add Doctor snapshot Taking snapshot of SearchDoctor 1`] = `
+<Provider
+  store={
+    Object {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(SearchDoctor)>
+    <SearchDoctor
+      deleteDoctor={[Function]}
+      doctorData={Object {}}
+      searchDoctor={[Function]}
+    >
+      <div>
+        <h1>
+          DOCTOR SEARCH FORM
+        </h1>
+        <form>
+          <div
+            style={
+              Object {
+                "border": "4px solid skyblue",
+              }
+            }
+          >
+            <label
+              style={
+                Object {
+                  "margin": "20px",
+                }
+              }
+            >
+              SPECIALITY
+            </label>
+            <select
+              name="speciality"
+              onChange={[Function]}
+            >
+              <option
+                value="Orthodontist"
+              >
+                Orthodontist
+              </option>
+              <option
+                value="Opthalmologist"
+              >
+                Opthalmologist
+              </option>
+              <option
+                value="Paediatrician"
+              >
+                Paediatrician
+              </option>
+              <option
+                value="Gastroentrologist"
+              >
+                Gastroentrologist
+              </option>
+              <option
+                value="Cardiologist"
+              >
+                Cardiologist
+              </option>
+            </select>
+              
+            <button
+              onClick={[Function]}
+            >
+              SEARCH
+            </button>
+            <br />
+            <br />
+            <br />
+            <table
+              style={
+                Object {
+                  "border": "5px solid white",
+                  "width": "100%",
+                }
+              }
+            >
+              <tr
+                style={
+                  Object {
+                    "backgroundColor": "lightblue",
+                    "color": "white",
+                  }
+                }
+              >
+                <th>
+                  DOCTOR ID
+                </th>
+                <th>
+                  DOCTOR NUMBER
+                </th>
+                <th>
+                  NAME
+                </th>
+                <th>
+                  QUALIFICATION
+                </th>
+                <th>
+                  SPECIALITY
+                </th>
+                <th>
+                  EDIT ACTION
+                </th>
+                <th>
+                  DELETE ACTION
+                </th>
+              </tr>
+            </table>
+          </div>
+        </form>
+      </div>
+    </SearchDoctor>
+  </Connect(SearchDoctor)>
+</Provider>
+`;

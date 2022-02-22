@@ -8,7 +8,6 @@ const NavBar = () => {
       <NavLink activeClassName="active" style={{ margin: "20px" }} to="/">Home</NavLink>
       <NavLink activeClassName="active" style={{ margin: "20px" }} to="/doctors/search/speciality/">SEARCH</NavLink>
       <NavLink activeClassName="active" style={{ margin: "20px" }} to="/doctors/add">ADD</NavLink>
-      <NavLink activeClassName="active" style={{ margin: "20px" }} to="/doctors/edit">EDIT</NavLink>
 
 
     </div>

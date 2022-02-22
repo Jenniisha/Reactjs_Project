@@ -5,22 +5,22 @@ const doctorSchema = new mongoose.Schema({
     doctorNumber: {
         type: Number,
         required: true,
-        unique: true
+        unique: [true, 'The doctorNumber is already exists.'],
       },
     
     name: {
       type: String,
-      required: true,
+      required: [true, 'Enter Name.'],    
     },
   
     qualification: {
       type:String,
-      required: true,
+      required:['Enter Qualification.']
     },
   
     speciality: {
         type:String,
-        required: true,
-    },
+        required:['Select Speciality.']   
+       }
 });
 mongoose.model("Doctors",doctorSchema);

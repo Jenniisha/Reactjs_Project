@@ -6,12 +6,11 @@ const app = express();
 
 //Importing models
 import "../models/doctors.js";
-import "../models/doctors.js";
-import "../models/patients.js";
-import "../models/patientHistory.js";
-import "../models/timeslot.js";
-import "../models/specialities.js";
-import "../models/appointments.js";
+// import "../models/patients.js";
+// import "../models/patientHistory.js";
+// import "../models/timeslot.js";
+// import "../models/specialities.js";
+// import "../models/appointments.js";
 
 import SimpleNodeLogger from 'simple-node-logger';
 const opts = {
@@ -24,12 +23,10 @@ const log = SimpleNodeLogger.createSimpleLogger(opts);
 const connectionStr = `mongodb://0.0.0.0:27017/clinicdb`;
 mongoose.connect(connectionStr)
   .then(() => {
-    console.log(`Connected to the mongodb Database`);
     log.info(`Connected to the mongodb Database`);
   })
   .catch((err) => {
-    console.log(err.message);
-    log.err(err.message);
+    log.error(err.message);
   });
 
 
@@ -67,7 +64,7 @@ app.get('/', (req, res) => {
 app.get('/doctors', (req, res) => {
   doctors.find({}, function (err, docs) {
     res.json(docs);
-    log.info(`Searched for all the doctors`);
+    log.info(`Searched for all the doctors And Total Documents found: ${docs.length} And the documents are:${docs}`);
   });
 });
 
@@ -76,22 +73,20 @@ app.get('/doctors', (req, res) => {
 //Searching doctors based on speciality
 app.get('/doctors/search/speciality/:speciality', (req, res) => {
   const specialityParam = req.params.speciality;
-  console.log(specialityParam);
   doctors.find({ "speciality": specialityParam }, function (err, docs) {
     res.json(docs);
-    console.log(docs);
-  log.info(`Searched for all the doctors based on speciality`);
-    
-
+    log.info(`Searched for all the doctors based on speciality: ${req.params.speciality}`);
+    log.info(`Total documents found based on speciality are: ${docs.length}`);
+    log.info(`Documents based on Speciality:${docs}`);
   });
 });
 
 //GET
 //Getting  the doctors details based on id
-app.get('/doctors/search/id/:id', (req, res) => {
-  doctors.find({ _id: req.params.id }, function (err, docs) {
+app.get('/doctors/search/id/:_id', (req, res) => {
+  doctors.find({ _id: req.params._id }, function (err, docs) {
     res.json(docs);
-    log.info('Searched doctors based on id');
+    log.info(`Searched doctors based on id: ${req.params._id}`);
   });
 });
 
@@ -100,10 +95,10 @@ app.get('/doctors/search/id/:id', (req, res) => {
 //Getting  the doctors details based on doctorNumber
 app.get('/doctors/search/doctorNumber/:doctorNumber', (req, res) => {
   const doctorNumberParam = req.params.doctorNumber;
-  console.log(doctorNumberParam);
   doctors.find({ "doctorNumber": doctorNumberParam }, function (err, docs) {
     res.json(docs);
-    log.info('Searched doctors based on Doctor Number');
+    log.info(`Searched doctors based on Doctor Number:${req.params.doctorNumber}`);
+
   });
 });
 
@@ -111,11 +106,10 @@ app.get('/doctors/search/doctorNumber/:doctorNumber', (req, res) => {
 //Getting the doctors details based on name
 app.get('/doctors/search/name/:name', (req, res) => {
   const nameParam = req.params.name;
-  console.log(nameParam);
   doctors.find({ "name": nameParam }, function (err, docs) {
     res.json(docs);
-    console.log(docs);
-    log.info('Searched doctors based on name');
+    log.info(`Searched doctors based on name: ${req.params.name}`);
+    log.info(`Total documents found for Searched doctors based on Doctor Name:${docs.length}`);
   });
 });
 
@@ -123,11 +117,10 @@ app.get('/doctors/search/name/:name', (req, res) => {
 //Getting  the doctors details based on qualification
 app.get('/doctors/search/qualification/:qualification', (req, res) => {
   const qualificationParam = req.params.qualification;
-  console.log(qualificationParam);
   doctors.find({ "qualification": qualificationParam }, function (err, docs) {
     res.json(docs);
-    console.log(docs);
-    log.info('Searched doctors based on qualification');
+    log.info(`Searched doctors based on qualification:${req.params.qualification} and the documents are:${docs}`);
+    log.info(`Total documents found for Searched doctors based on Doctor Qualification:${docs.length}`);
   });
 });
 
@@ -138,9 +131,11 @@ app.get('/doctors/search/qualification/:qualification', (req, res) => {
 app.post('/doctors/add', (req, res) => {
   doctors.create(req.body).then((ans) => {
     log.info("New Doctor Got Inserted To The Database");
-    res.status(200).send({ msg: "Doctor added successfully" });
+    res.status(200).send({ msg: "New Doctor added successfully" });
+    res.json(docs);
   }).catch((err) => {
-    log.err(err.Message);
+    log.error(err);
+    res.status(400).send({ msg: "Doctor with given id already exists!!" });
   });
 });
 
@@ -148,45 +143,49 @@ app.post('/doctors/add', (req, res) => {
 
 //EDIT
 //Editing the doctors based on id
-app.put('/doctors/edit/:id', (req, res) => {
-  doctors.findByIdAndUpdate(req.params.id, req.body).then((ans) => {
-    console.log("Doctor data is updated");
+
+app.post('/doctors/edit/:id', (req, res) => {
+  doctors.findByIdAndUpdate(req.params.id,req.body)
+  .then((ans) => {
     log.info("Doctor data is updated");
     res.status(200).send({ msg: "Doctor Updated successfully" });
-    log.info()
+    log.info("Doctor Updated successfully:"+req.params.id)
   }).catch((err) => {
-    console.log(err.Message);
-    log.err(err.Message);
+    log.error(err.Message);
+    res.status(400).send({ msg: "Doctor Updation Failed.!!" });
   });
 });
 
 //DELETE
-//Deleting the doctors based on id
-// DELETE a doctor
-app.get('/doctors/delete/:name', (req, res,) => {
-  doctors.deleteOne({ name: req.params.name }).then((ans) => {
-    console.log("one doctor deleted")
-    res.status(200).send({ msg: "Doctor removed successfully" });
-    log.info(`doctor deleted by its name`)
+//Deleting the doctors based on doctorNumber
+app.get('/doctors/delete/:doctorNumber', (req, res,) => {
+  log.info(`Obtain request for deleting a doctor ${req.params.doctorNumber}`)
+  doctors.deleteOne({doctorNumber:req.params.doctorNumber}).then((ans) => {
+    log.info("One doctor deleted")
+    res.status(200).send({msg:"Doctor removed successfully"});
+    log.info(`doctor deleted by its doctorNumber`)
   }).catch((err) => {
     console.log(err.Message);
-    res.status(400).send({ msg: "Doctor doesn't exist to remove" });
-
+    res.status(400).send({msg:"Doctor doesn't exist to remove"});
+  
   });
 });
 
 // DELETE a doctor by its ID
 app.post('/doctors/delete/:id', (req, res,) => {
-  doctors.findByIdAndDelete(req.params.id).then((ans) => {
-    console.log("one doctor deleted")
-    res.status(200).send({ msg: "Doctor removed successfully" });
+  log.info(`obtain request for deleting a doctor by its ID ${req.params.id}`)
+  doctors.findByIdAndDelete(req.params.id).then((doc) => {
+    log.info("one doctor deleted")
+    res.status(200).send({msg:"Doctor removed successfully"});
+    log.info(`one doctor is deleted from the database with ID ${doc._id}`) 
     log.info(`doctor deleted by its ID`)
   }).catch((err) => {
-    console.log(err.Message);
-    res.status(400).send({ msg: "Doctor with the id doesn't exist" });
-
+    log.error(err)
+    res.status(400).send({msg:"Doctor with the id doesn't exist"});
+  
   });
 });
+
 
 
 

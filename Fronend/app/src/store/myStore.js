@@ -3,6 +3,7 @@ import rootSaga from '../sagas/DoctorSaga';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import createSagaMiddleware from 'redux-saga';
 import DoctorReducer from '../reducers/DoctorReducer';
+import AddDoctorReducer from '../reducers/AddDoctorReducer';
 
 
 const sagaMiddleware = createSagaMiddleware();
@@ -10,6 +11,7 @@ const sagaMiddleware = createSagaMiddleware();
 
 const rootReducer = combineReducers({
     reducer1: DoctorReducer,
+    reducer2:AddDoctorReducer
 
 });
 const store = createStore(
@@ -30,3 +32,4 @@ sagaMiddleware.run(rootSaga);
 // //lets see the action here itself
 // // i am going to dispatch any action. say "SEARCH_DOCTOR_SUCCESSFUL"action
 // store.dispatch({type:"SEARCH_DOCTOR_SUCCESSFUL"});
+//store.dispatch({type:"ADD_DOCTOR_TO_BACKEND"});
