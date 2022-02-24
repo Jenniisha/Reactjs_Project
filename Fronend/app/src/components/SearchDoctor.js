@@ -12,9 +12,7 @@ const SearchDoctor = (props) => {
     const handleChange = (e) => {
         e.preventDefault();
         setLocalState({ ...localState, [e.target.name]: e.target.value });
-        // console.log(setLocalState);
-        // console.log(e.target.value);
-        // console.log(e.target.name);
+        
     };
 
     const searchDoctor = (e) => {
@@ -40,7 +38,7 @@ const SearchDoctor = (props) => {
 
                 <div style={{ border: "4px solid skyblue" }}>
                     <label style={{ margin: "20px" }}>SPECIALITY</label>
-                    <select name="speciality" value={localState.value} onChange={handleChange}>
+                    <select name="speciality" value={localState.speciality} onChange={handleChange}>
                         <option value={specialityOptions[0]}>Orthodontist</option>
                         <option value={specialityOptions[1]}>Opthalmologist</option>
                         <option value={specialityOptions[2]}>Paediatrician</option>
@@ -64,7 +62,6 @@ const SearchDoctor = (props) => {
                             <th>DELETE ACTION</th>
                         </tr>
 
-                        {/* {props.doctorData && props.doctorData.searchDoctorSuccess} */}
                         {props.doctorData.searchResults ? props.doctorData.searchResults.map((item, key) => <tr><td> {item._id}</td><td> {item.doctorNumber}</td>
                         <td> {item.name}</td><td> {item.qualification}
                         </td><td>{item.speciality} </td><td><Link to={{pathname:"/doctors/edit/?doctorNumber="+item.doctorNumber+"&_id="+item._id+"&name="+item.name+"&qualification="+item.qualification+"&speciality="+item.speciality}}  >EDIT</Link></td><td><button onClick={(e) => deleteDoctor(e,item.doctorNumber)} >DELETE</button></td></tr>) : ""}

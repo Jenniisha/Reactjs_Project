@@ -13,7 +13,6 @@ const AddDoctor = (props) => {
 
 
     const [localState2, setLocalState2] = useState({_id:_id, doctorNumber: doctorNumber ? doctorNumber : "", name: name ? name : "", qualification: qualification ? qualification : "", speciality: speciality ? speciality : "" });
-    // console.log(props.location);
 
     const handleChange2 = (e) => {
         e.preventDefault();
@@ -36,7 +35,6 @@ const AddDoctor = (props) => {
         <div>
             {props.location}
 
-            {/* {props.mode ? props.mode : ""} */}
             {props.doctorData.addDoctorSuccess ? props.doctorData.addDoctorSuccess : ""}<br />
             {props.doctorData.editDoctorSuccess ? props.doctorData.editDoctorSuccess : ""}<br />
 

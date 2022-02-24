@@ -14,7 +14,6 @@ class NoPageFound extends PureComponent {
                 <br /><br />
                 Go back to Home Page <Link to={"/"}>Home</Link>
 
-                {/* <Redirect to="/" /> */}
             </div>
         )
     }

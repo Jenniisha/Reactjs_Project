@@ -5,8 +5,7 @@ import { connect } from 'react-redux';
 
 // state is nothing but store that we are passing in the parameter
 const mapStateToProps = (store) => {
-    // console.log(store.reducer2);
-    // console.log("Inside reducer2");
+   
 
     return {
         doctorData: store.reducer2

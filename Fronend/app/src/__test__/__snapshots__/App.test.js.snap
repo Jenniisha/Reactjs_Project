@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Basic App rendering test cases 1 Taking snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Routes>
+    <Route
+      element={<Home />}
+      path="/"
+    />
+    <Route
+      element={
+        <Memo(Connect(AddDoctor))
+          mode="ADD"
+        />
+      }
+      path="/doctors/add"
+    />
+    <Route
+      element={
+        <Memo(Connect(AddDoctor))
+          mode="EDIT"
+        />
+      }
+      path="/doctors/edit/"
+    />
+    <Route
+      element={<Memo(Connect(SearchDoctor)) />}
+      path="/doctors/search/speciality/"
+    />
+    <Route
+      element={<NoPageFound />}
+      path="*"
+    />
+  </Routes>
+</Provider>
+`;
