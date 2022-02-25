@@ -2838,3 +2838,770 @@ ValidationError: Doctors validation failed: doctorNumber: Path `doctorNumber` is
   __v: 0
 } 
 2022-02-24 18:37:43.544 INFO  Total documents found for Searched doctors based on Doctor Qualification:12 
+2022-02-24 21:51:50.045 INFO  Searched for all the doctors based on speciality: Gastroentrologist 
+2022-02-24 21:51:50.045 INFO  Total documents found based on speciality are: 3 
+2022-02-24 21:51:50.055 INFO  Documents based on Speciality:{
+  _id: new ObjectId("620f34cfa9bbd6d7d7510e53"),
+  doctorNumber: 4,
+  name: 'Dr Shaun',
+  qualification: 'MBBS',
+  speciality: 'Gastroentrologist'
+},{
+  _id: new ObjectId("620f35a8a9bbd6d7d7510e55"),
+  doctorNumber: 6,
+  name: 'Dr Sharon',
+  qualification: 'MBBS',
+  speciality: 'Gastroentrologist'
+},{
+  _id: new ObjectId("62135bae67bd97d0475cc0e9"),
+  doctorNumber: 12,
+  name: 'Dr Johny',
+  qualification: 'MBBS',
+  speciality: 'Gastroentrologist',
+  __v: 0
+} 
+2022-02-24 21:51:50.197 INFO  Searched for all the doctors based on speciality: Gastroentrologist 
+2022-02-24 21:51:50.197 INFO  Total documents found based on speciality are: 3 
+2022-02-24 21:51:50.198 INFO  Documents based on Speciality:{
+  _id: new ObjectId("620f34cfa9bbd6d7d7510e53"),
+  doctorNumber: 4,
+  name: 'Dr Shaun',
+  qualification: 'MBBS',
+  speciality: 'Gastroentrologist'
+},{
+  _id: new ObjectId("620f35a8a9bbd6d7d7510e55"),
+  doctorNumber: 6,
+  name: 'Dr Sharon',
+  qualification: 'MBBS',
+  speciality: 'Gastroentrologist'
+},{
+  _id: new ObjectId("62135bae67bd97d0475cc0e9"),
+  doctorNumber: 12,
+  name: 'Dr Johny',
+  qualification: 'MBBS',
+  speciality: 'Gastroentrologist',
+  __v: 0
+} 
+2022-02-24 21:51:59.230 INFO  Searched for all the doctors based on speciality: Opthalmologist 
+2022-02-24 21:51:59.230 INFO  Total documents found based on speciality are: 2 
+2022-02-24 21:51:59.230 INFO  Documents based on Speciality:{
+  _id: new ObjectId("620f32a7a9bbd6d7d7510e51"),
+  doctorNumber: 2,
+  name: 'Dr Malcolm',
+  qualification: 'MD',
+  speciality: 'Opthalmologist'
+},{
+  _id: new ObjectId("62135af4a344dca6e224ca1b"),
+  doctorNumber: 11,
+  name: 'Dr Josline',
+  qualification: 'MS',
+  speciality: 'Opthalmologist',
+  __v: 0
+} 
+2022-02-24 23:26:48.323 INFO  Connected to the mongodb Database 
+2022-02-25 10:22:22.107 INFO  Connected to the mongodb Database 
+2022-02-25 10:52:57.352 INFO  Searched for all the doctors based on speciality: Paediatrician 
+2022-02-25 10:52:57.352 INFO  Total documents found based on speciality are: 2 
+2022-02-25 10:52:57.366 INFO  Documents based on Speciality:{
+  _id: new ObjectId("6213bde69ffa738cd16d9354"),
+  doctorNumber: 23,
+  name: 'Dr Joslin',
+  qualification: 'MD',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("6213bf949ffa738cd16d935a"),
+  doctorNumber: 25,
+  name: 'Dr Joylin',
+  qualification: 'MBBS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             MD                                            ',
+  speciality: 'Paediatrician',
+  __v: 0
+} 
+2022-02-25 11:05:04.173 INFO  Searched for all the doctors based on speciality: Paediatrician 
+2022-02-25 11:05:04.173 INFO  Total documents found based on speciality are: 2 
+2022-02-25 11:05:04.174 INFO  Documents based on Speciality:{
+  _id: new ObjectId("6213bde69ffa738cd16d9354"),
+  doctorNumber: 23,
+  name: 'Dr Joslin',
+  qualification: 'MD',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("6213bf949ffa738cd16d935a"),
+  doctorNumber: 25,
+  name: 'Dr Joylin',
+  qualification: 'MBBS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             MD                                            ',
+  speciality: 'Paediatrician',
+  __v: 0
+} 
+2022-02-25 11:05:12.425 INFO  obtain request for deleting a doctor 23 
+2022-02-25 11:05:12.472 INFO  one doctor deleted 
+2022-02-25 11:05:12.473 INFO  doctor deleted by its doctornumber 
+2022-02-25 11:05:17.647 INFO  Searched for all the doctors based on speciality: Paediatrician 
+2022-02-25 11:05:17.647 INFO  Total documents found based on speciality are: 1 
+2022-02-25 11:05:17.648 INFO  Documents based on Speciality:{
+  _id: new ObjectId("6213bf949ffa738cd16d935a"),
+  doctorNumber: 25,
+  name: 'Dr Joylin',
+  qualification: 'MBBS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             MD                                            ',
+  speciality: 'Paediatrician',
+  __v: 0
+} 
+2022-02-25 11:06:25.449 INFO  Doctor data is updated 
+2022-02-25 11:06:25.452 INFO  Doctor Updated successfully:6213bf949ffa738cd16d935a 
+2022-02-25 11:06:38.149 INFO  Searched for all the doctors based on speciality: Cardiologist 
+2022-02-25 11:06:38.149 INFO  Total documents found based on speciality are: 1 
+2022-02-25 11:06:38.150 INFO  Documents based on Speciality:{
+  _id: new ObjectId("620f35f4a9bbd6d7d7510e56"),
+  doctorNumber: 7,
+  name: 'Dr Olivia',
+  qualification: 'MBBS',
+  speciality: 'Cardiologist'
+} 
+2022-02-25 11:06:40.719 INFO  Searched for all the doctors based on speciality: Orthodontist 
+2022-02-25 11:06:40.719 INFO  Total documents found based on speciality are: 8 
+2022-02-25 11:06:40.722 INFO  Documents based on Speciality:{
+  _id: new ObjectId("620f313ba9bbd6d7d7510e50"),
+  doctorNumber: 1,
+  name: 'Dr John',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist'
+},{
+  _id: new ObjectId("620fa27fb8349b6735b46013"),
+  doctorNumber: 8,
+  name: 'Dr Ashok',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("620fa4c7b8349b6735b46019"),
+  doctorNumber: 9,
+  name: 'Dr Arun',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("62122a3148c4bd8094d1e2b3"),
+  doctorNumber: 10,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("6214fb904815532c07971121"),
+  doctorNumber: 29,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("6214fbc4bc0048c3692495ff"),
+  doctorNumber: 30,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("6214fbfedf2a8d08dea0a451"),
+  doctorNumber: 31,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("621782a673ce1063b3c8cd2d"),
+  doctorNumber: 50,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+} 
+2022-02-25 11:06:45.984 INFO  Searched for all the doctors based on speciality: Opthalmologist 
+2022-02-25 11:06:45.984 INFO  Total documents found based on speciality are: 2 
+2022-02-25 11:06:45.985 INFO  Documents based on Speciality:{
+  _id: new ObjectId("620f32a7a9bbd6d7d7510e51"),
+  doctorNumber: 2,
+  name: 'Dr Malcolm',
+  qualification: 'MD',
+  speciality: 'Opthalmologist'
+},{
+  _id: new ObjectId("62135af4a344dca6e224ca1b"),
+  doctorNumber: 11,
+  name: 'Dr Josline',
+  qualification: 'MS',
+  speciality: 'Opthalmologist',
+  __v: 0
+} 
+2022-02-25 11:07:15.791 INFO  New Doctor Got Inserted To The Database 
+2022-02-25 11:08:08.824 INFO  Connected to the mongodb Database 
+2022-02-25 11:08:08.884 INFO  Searched for all the doctors based on speciality: Gastroentrologist 
+2022-02-25 11:08:08.884 INFO  Total documents found based on speciality are: 3 
+2022-02-25 11:08:08.890 INFO  Documents based on Speciality:{
+  _id: new ObjectId("620f34cfa9bbd6d7d7510e53"),
+  doctorNumber: 4,
+  name: 'Dr Shaun',
+  qualification: 'MBBS',
+  speciality: 'Gastroentrologist'
+},{
+  _id: new ObjectId("620f35a8a9bbd6d7d7510e55"),
+  doctorNumber: 6,
+  name: 'Dr Sharon',
+  qualification: 'MBBS',
+  speciality: 'Gastroentrologist'
+},{
+  _id: new ObjectId("62135bae67bd97d0475cc0e9"),
+  doctorNumber: 12,
+  name: 'Dr Johny',
+  qualification: 'MBBS',
+  speciality: 'Gastroentrologist',
+  __v: 0
+} 
+2022-02-25 11:08:12.594 INFO  Searched for all the doctors based on speciality: Paediatrician 
+2022-02-25 11:08:12.594 INFO  Total documents found based on speciality are: 2 
+2022-02-25 11:08:12.596 INFO  Documents based on Speciality:{
+  _id: new ObjectId("6213bf949ffa738cd16d935a"),
+  doctorNumber: 25,
+  name: 'Dr Joylin',
+  qualification: 'MS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             MD                                            ',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("62186b0ba88b84a0c19e9311"),
+  doctorNumber: 67,
+  name: 'Dr Ashok',
+  qualification: 'MBBS',
+  speciality: 'Paediatrician',
+  __v: 0
+} 
+2022-02-25 11:13:00.581 INFO  Searched for all the doctors based on speciality: Paediatrician 
+2022-02-25 11:13:00.581 INFO  Total documents found based on speciality are: 2 
+2022-02-25 11:13:00.583 INFO  Documents based on Speciality:{
+  _id: new ObjectId("6213bf949ffa738cd16d935a"),
+  doctorNumber: 25,
+  name: 'Dr Joylin',
+  qualification: 'MS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             MD                                            ',
+  speciality: 'Paediatrician',
+  __v: 0
+},{
+  _id: new ObjectId("62186b0ba88b84a0c19e9311"),
+  doctorNumber: 67,
+  name: 'Dr Ashok',
+  qualification: 'MBBS',
+  speciality: 'Paediatrician',
+  __v: 0
+} 
+2022-02-25 11:14:07.113 INFO  Doctor data is updated 
+2022-02-25 11:14:07.114 INFO  Doctor Updated successfully:6213bf949ffa738cd16d935a 
+2022-02-25 11:14:17.185 INFO  Searched for all the doctors based on speciality: Opthalmologist 
+2022-02-25 11:14:17.185 INFO  Total documents found based on speciality are: 2 
+2022-02-25 11:14:17.188 INFO  Documents based on Speciality:{
+  _id: new ObjectId("620f32a7a9bbd6d7d7510e51"),
+  doctorNumber: 2,
+  name: 'Dr Malcolm',
+  qualification: 'MD',
+  speciality: 'Opthalmologist'
+},{
+  _id: new ObjectId("62135af4a344dca6e224ca1b"),
+  doctorNumber: 11,
+  name: 'Dr Josline',
+  qualification: 'MS',
+  speciality: 'Opthalmologist',
+  __v: 0
+} 
+2022-02-25 11:14:20.349 INFO  Searched for all the doctors based on speciality: Orthodontist 
+2022-02-25 11:14:20.349 INFO  Total documents found based on speciality are: 8 
+2022-02-25 11:14:20.352 INFO  Documents based on Speciality:{
+  _id: new ObjectId("620f313ba9bbd6d7d7510e50"),
+  doctorNumber: 1,
+  name: 'Dr John',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist'
+},{
+  _id: new ObjectId("620fa27fb8349b6735b46013"),
+  doctorNumber: 8,
+  name: 'Dr Ashok',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("620fa4c7b8349b6735b46019"),
+  doctorNumber: 9,
+  name: 'Dr Arun',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("62122a3148c4bd8094d1e2b3"),
+  doctorNumber: 10,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("6214fb904815532c07971121"),
+  doctorNumber: 29,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("6214fbc4bc0048c3692495ff"),
+  doctorNumber: 30,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("6214fbfedf2a8d08dea0a451"),
+  doctorNumber: 31,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("621782a673ce1063b3c8cd2d"),
+  doctorNumber: 50,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+} 
+2022-02-25 11:14:26.183 INFO  Searched for all the doctors based on speciality: Gastroentrologist 
+2022-02-25 11:14:26.183 INFO  Total documents found based on speciality are: 3 
+2022-02-25 11:14:26.184 INFO  Documents based on Speciality:{
+  _id: new ObjectId("620f34cfa9bbd6d7d7510e53"),
+  doctorNumber: 4,
+  name: 'Dr Shaun',
+  qualification: 'MBBS',
+  speciality: 'Gastroentrologist'
+},{
+  _id: new ObjectId("620f35a8a9bbd6d7d7510e55"),
+  doctorNumber: 6,
+  name: 'Dr Sharon',
+  qualification: 'MBBS',
+  speciality: 'Gastroentrologist'
+},{
+  _id: new ObjectId("62135bae67bd97d0475cc0e9"),
+  doctorNumber: 12,
+  name: 'Dr Johny',
+  qualification: 'MBBS',
+  speciality: 'Gastroentrologist',
+  __v: 0
+} 
+2022-02-25 11:14:29.766 INFO  Searched for all the doctors based on speciality: Opthalmologist 
+2022-02-25 11:14:29.766 INFO  Total documents found based on speciality are: 2 
+2022-02-25 11:14:29.767 INFO  Documents based on Speciality:{
+  _id: new ObjectId("620f32a7a9bbd6d7d7510e51"),
+  doctorNumber: 2,
+  name: 'Dr Malcolm',
+  qualification: 'MD',
+  speciality: 'Opthalmologist'
+},{
+  _id: new ObjectId("62135af4a344dca6e224ca1b"),
+  doctorNumber: 11,
+  name: 'Dr Josline',
+  qualification: 'MS',
+  speciality: 'Opthalmologist',
+  __v: 0
+} 
+2022-02-25 11:14:39.679 INFO  Doctor data is updated 
+2022-02-25 11:14:39.679 INFO  Doctor Updated successfully:620f32a7a9bbd6d7d7510e51 
+2022-02-25 11:14:52.985 INFO  Searched for all the doctors based on speciality: Opthalmologist 
+2022-02-25 11:14:52.985 INFO  Total documents found based on speciality are: 2 
+2022-02-25 11:14:52.985 INFO  Documents based on Speciality:{
+  _id: new ObjectId("620f32a7a9bbd6d7d7510e51"),
+  doctorNumber: 2,
+  name: 'Dr Malcolm',
+  qualification: 'MBBS',
+  speciality: 'Opthalmologist'
+},{
+  _id: new ObjectId("62135af4a344dca6e224ca1b"),
+  doctorNumber: 11,
+  name: 'Dr Josline',
+  qualification: 'MS',
+  speciality: 'Opthalmologist',
+  __v: 0
+} 
+2022-02-25 11:15:13.955 INFO  Doctor data is updated 
+2022-02-25 11:15:13.957 INFO  Doctor Updated successfully:620f32a7a9bbd6d7d7510e51 
+2022-02-25 11:15:15.720 INFO  Doctor data is updated 
+2022-02-25 11:15:15.721 INFO  Doctor Updated successfully:620f32a7a9bbd6d7d7510e51 
+2022-02-25 11:15:29.995 INFO  Searched for all the doctors based on speciality: Opthalmologist 
+2022-02-25 11:15:29.995 INFO  Total documents found based on speciality are: 2 
+2022-02-25 11:15:29.996 INFO  Documents based on Speciality:{
+  _id: new ObjectId("620f32a7a9bbd6d7d7510e51"),
+  doctorNumber: 2,
+  name: 'Dr Malcolm',
+  qualification: 'MD',
+  speciality: 'Opthalmologist'
+},{
+  _id: new ObjectId("62135af4a344dca6e224ca1b"),
+  doctorNumber: 11,
+  name: 'Dr Josline',
+  qualification: 'MS',
+  speciality: 'Opthalmologist',
+  __v: 0
+} 
+2022-02-25 11:16:10.700 INFO  Searched for all the doctors based on speciality: Opthalmologist 
+2022-02-25 11:16:10.700 INFO  Total documents found based on speciality are: 2 
+2022-02-25 11:16:10.700 INFO  Documents based on Speciality:{
+  _id: new ObjectId("620f32a7a9bbd6d7d7510e51"),
+  doctorNumber: 2,
+  name: 'Dr Malcolm',
+  qualification: 'MD',
+  speciality: 'Opthalmologist'
+},{
+  _id: new ObjectId("62135af4a344dca6e224ca1b"),
+  doctorNumber: 11,
+  name: 'Dr Josline',
+  qualification: 'MS',
+  speciality: 'Opthalmologist',
+  __v: 0
+} 
+2022-02-25 11:16:34.323 INFO  Searched for all the doctors based on speciality: Orthodontist 
+2022-02-25 11:16:34.323 INFO  Total documents found based on speciality are: 8 
+2022-02-25 11:16:34.326 INFO  Documents based on Speciality:{
+  _id: new ObjectId("620f313ba9bbd6d7d7510e50"),
+  doctorNumber: 1,
+  name: 'Dr John',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist'
+},{
+  _id: new ObjectId("620fa27fb8349b6735b46013"),
+  doctorNumber: 8,
+  name: 'Dr Ashok',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("620fa4c7b8349b6735b46019"),
+  doctorNumber: 9,
+  name: 'Dr Arun',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("62122a3148c4bd8094d1e2b3"),
+  doctorNumber: 10,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("6214fb904815532c07971121"),
+  doctorNumber: 29,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("6214fbc4bc0048c3692495ff"),
+  doctorNumber: 30,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("6214fbfedf2a8d08dea0a451"),
+  doctorNumber: 31,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("621782a673ce1063b3c8cd2d"),
+  doctorNumber: 50,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+} 
+2022-02-25 11:16:45.238 INFO  Doctor data is updated 
+2022-02-25 11:16:45.239 INFO  Doctor Updated successfully:620f313ba9bbd6d7d7510e50 
+2022-02-25 11:16:52.473 INFO  Searched for all the doctors based on speciality: Orthodontist 
+2022-02-25 11:16:52.473 INFO  Total documents found based on speciality are: 8 
+2022-02-25 11:16:52.475 INFO  Documents based on Speciality:{
+  _id: new ObjectId("620f313ba9bbd6d7d7510e50"),
+  doctorNumber: 1,
+  name: 'Dr John',
+  qualification: 'MD',
+  speciality: 'Orthodontist'
+},{
+  _id: new ObjectId("620fa27fb8349b6735b46013"),
+  doctorNumber: 8,
+  name: 'Dr Ashok',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("620fa4c7b8349b6735b46019"),
+  doctorNumber: 9,
+  name: 'Dr Arun',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("62122a3148c4bd8094d1e2b3"),
+  doctorNumber: 10,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("6214fb904815532c07971121"),
+  doctorNumber: 29,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("6214fbc4bc0048c3692495ff"),
+  doctorNumber: 30,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("6214fbfedf2a8d08dea0a451"),
+  doctorNumber: 31,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("621782a673ce1063b3c8cd2d"),
+  doctorNumber: 50,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+} 
+2022-02-25 11:17:04.779 INFO  Doctor data is updated 
+2022-02-25 11:17:04.779 INFO  Doctor Updated successfully:620fa27fb8349b6735b46013 
+2022-02-25 11:17:12.085 INFO  Searched for all the doctors based on speciality: Orthodontist 
+2022-02-25 11:17:12.085 INFO  Total documents found based on speciality are: 8 
+2022-02-25 11:17:12.086 INFO  Documents based on Speciality:{
+  _id: new ObjectId("620f313ba9bbd6d7d7510e50"),
+  doctorNumber: 1,
+  name: 'Dr John',
+  qualification: 'MD',
+  speciality: 'Orthodontist'
+},{
+  _id: new ObjectId("620fa27fb8349b6735b46013"),
+  doctorNumber: 8,
+  name: 'Dr Ashok',
+  qualification: 'MD',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("620fa4c7b8349b6735b46019"),
+  doctorNumber: 9,
+  name: 'Dr Arun',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("62122a3148c4bd8094d1e2b3"),
+  doctorNumber: 10,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("6214fb904815532c07971121"),
+  doctorNumber: 29,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("6214fbc4bc0048c3692495ff"),
+  doctorNumber: 30,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("6214fbfedf2a8d08dea0a451"),
+  doctorNumber: 31,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("621782a673ce1063b3c8cd2d"),
+  doctorNumber: 50,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+} 
+2022-02-25 11:17:16.983 INFO  obtain request for deleting a doctor 50 
+2022-02-25 11:17:16.992 INFO  one doctor deleted 
+2022-02-25 11:17:16.993 INFO  doctor deleted by its doctornumber 
+2022-02-25 11:17:19.453 INFO  Searched for all the doctors based on speciality: Orthodontist 
+2022-02-25 11:17:19.453 INFO  Total documents found based on speciality are: 7 
+2022-02-25 11:17:19.454 INFO  Documents based on Speciality:{
+  _id: new ObjectId("620f313ba9bbd6d7d7510e50"),
+  doctorNumber: 1,
+  name: 'Dr John',
+  qualification: 'MD',
+  speciality: 'Orthodontist'
+},{
+  _id: new ObjectId("620fa27fb8349b6735b46013"),
+  doctorNumber: 8,
+  name: 'Dr Ashok',
+  qualification: 'MD',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("620fa4c7b8349b6735b46019"),
+  doctorNumber: 9,
+  name: 'Dr Arun',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("62122a3148c4bd8094d1e2b3"),
+  doctorNumber: 10,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("6214fb904815532c07971121"),
+  doctorNumber: 29,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("6214fbc4bc0048c3692495ff"),
+  doctorNumber: 30,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+},{
+  _id: new ObjectId("6214fbfedf2a8d08dea0a451"),
+  doctorNumber: 31,
+  name: 'Dr Joseph',
+  qualification: 'MBBS',
+  speciality: 'Orthodontist',
+  __v: 0
+} 
+2022-02-25 11:17:46.337 ERROR Doctors validation failed: speciality: Select Speciality.
+{"errors":{"speciality":{"name":"ValidatorError","message":"Select Speciality.","properties":{"message":"Select Speciality.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"Doctors validation failed","name":"ValidationError","message":"Doctors validation failed: speciality: Select Speciality."}
+ValidationError: Doctors validation failed: speciality: Select Speciality.
+    at model.Document.invalidate (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2938:32)
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2729:17
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\schematype.js:1324:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+2022-02-25 11:17:53.911 ERROR Doctors validation failed: speciality: Select Speciality.
+{"errors":{"speciality":{"name":"ValidatorError","message":"Select Speciality.","properties":{"message":"Select Speciality.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"Doctors validation failed","name":"ValidationError","message":"Doctors validation failed: speciality: Select Speciality."}
+ValidationError: Doctors validation failed: speciality: Select Speciality.
+    at model.Document.invalidate (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2938:32)
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2729:17
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\schematype.js:1324:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+2022-02-25 11:18:21.303 INFO  New Doctor Got Inserted To The Database 
+2022-02-25 11:20:36.916 INFO  Connected to the mongodb Database 
+2022-02-25 11:21:03.298 INFO  New Doctor Got Inserted To The Database 
+2022-02-25 11:22:11.190 INFO  Connected to the mongodb Database 
+2022-02-25 11:22:37.110 INFO  Searched for all the doctors based on speciality: Opthalmologist 
+2022-02-25 11:22:37.110 INFO  Total documents found based on speciality are: 4 
+2022-02-25 11:22:50.736 ERROR Doctors validation failed: doctorNumber: Path `doctorNumber` is required., name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+{"errors":{"doctorNumber":{"name":"ValidatorError","message":"Path `doctorNumber` is required.","properties":{"message":"Path `doctorNumber` is required.","type":"required","path":"doctorNumber","value":null},"kind":"required","path":"doctorNumber","value":null},"name":{"name":"ValidatorError","message":"Enter Name.","properties":{"message":"Enter Name.","type":"required","path":"name","value":""},"kind":"required","path":"name","value":""},"qualification":{"name":"ValidatorError","message":"Enter Qualification.","properties":{"message":"Enter Qualification.","type":"required","path":"qualification","value":""},"kind":"required","path":"qualification","value":""},"speciality":{"name":"ValidatorError","message":"Select Speciality.","properties":{"message":"Select Speciality.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"Doctors validation failed","name":"ValidationError","message":"Doctors validation failed: doctorNumber: Path `doctorNumber` is required., name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality."}
+ValidationError: Doctors validation failed: doctorNumber: Path `doctorNumber` is required., name: Enter Name., qualification: Enter Qualification., speciality: Select Speciality.
+    at model.Document.invalidate (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2938:32)
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\document.js:2729:17
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\lib\schematype.js:1324:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+2022-02-25 11:23:06.636 INFO  New Doctor Got Inserted To The Database 
+2022-02-25 11:24:11.052 INFO  Connected to the mongodb Database 
+2022-02-25 11:24:55.734 INFO  Connected to the mongodb Database 
+2022-02-25 11:25:02.616 INFO  Connected to the mongodb Database 
+2022-02-25 11:25:04.522 INFO  Connected to the mongodb Database 
+2022-02-25 11:25:10.649 INFO  Searched for all the doctors based on speciality: Gastroentrologist 
+2022-02-25 11:25:10.649 INFO  Total documents found based on speciality are: 3 
+2022-02-25 11:25:27.619 INFO  New Doctor Got Inserted To The Database 
+2022-02-25 11:33:29.090 INFO  Connected to the mongodb Database 
+2022-02-25 11:34:05.979 INFO  Connected to the mongodb Database 
+2022-02-25 11:34:17.112 INFO  Connected to the mongodb Database 
+2022-02-25 11:34:53.547 INFO  Connected to the mongodb Database 
+2022-02-25 11:37:33.031 INFO  obtain request for searching a doctor by its speciality Gastroentrologist 
+2022-02-25 11:37:33.054 INFO  Searched for all the doctors based on speciality: Gastroentrologist 
+2022-02-25 11:37:33.054 INFO  Total documents found based on speciality are: 3 
+2022-02-25 11:37:40.278 INFO  Doctor data is updated 
+2022-02-25 11:37:40.280 INFO  Doctor Updated successfully:620f34cfa9bbd6d7d7510e53 
+2022-02-25 11:38:05.571 INFO  obtain request for searching a doctor by its speciality Opthalmologist 
+2022-02-25 11:38:05.580 INFO  Searched for all the doctors based on speciality: Opthalmologist 
+2022-02-25 11:38:05.580 INFO  Total documents found based on speciality are: 5 
+2022-02-25 11:38:07.760 INFO  obtain request for searching a doctor by its speciality Orthodontist 
+2022-02-25 11:38:07.770 INFO  Searched for all the doctors based on speciality: Orthodontist 
+2022-02-25 11:38:07.770 INFO  Total documents found based on speciality are: 7 
+2022-02-25 11:38:10.071 INFO  obtain request for searching a doctor by its speciality Gastroentrologist 
+2022-02-25 11:38:10.075 INFO  Searched for all the doctors based on speciality: Gastroentrologist 
+2022-02-25 11:38:10.075 INFO  Total documents found based on speciality are: 3 
+2022-02-25 11:38:17.864 INFO  Doctor data is updated 
+2022-02-25 11:38:17.865 INFO  Doctor Updated successfully:620f34cfa9bbd6d7d7510e53 
+2022-02-25 11:38:24.714 INFO  obtain request for searching a doctor by its speciality Orthodontist 
+2022-02-25 11:38:24.722 INFO  Searched for all the doctors based on speciality: Orthodontist 
+2022-02-25 11:38:24.722 INFO  Total documents found based on speciality are: 7 
+2022-02-25 11:38:27.247 INFO  obtain request for searching a doctor by its speciality Opthalmologist 
+2022-02-25 11:38:27.255 INFO  Searched for all the doctors based on speciality: Opthalmologist 
+2022-02-25 11:38:27.255 INFO  Total documents found based on speciality are: 5 
+2022-02-25 11:38:29.153 INFO  obtain request for searching a doctor by its speciality Paediatrician 
+2022-02-25 11:38:29.161 INFO  Searched for all the doctors based on speciality: Paediatrician 
+2022-02-25 11:38:29.161 INFO  Total documents found based on speciality are: 3 
+2022-02-25 11:38:31.440 INFO  obtain request for searching a doctor by its speciality Gastroentrologist 
+2022-02-25 11:38:31.447 INFO  Searched for all the doctors based on speciality: Gastroentrologist 
+2022-02-25 11:38:31.447 INFO  Total documents found based on speciality are: 3 
+2022-02-25 11:38:45.772 INFO  Doctor data is updated 
+2022-02-25 11:38:45.773 INFO  Doctor Updated successfully:620f34cfa9bbd6d7d7510e53 
+2022-02-25 11:38:46.978 INFO  Doctor data is updated 
+2022-02-25 11:38:46.978 INFO  Doctor Updated successfully:620f34cfa9bbd6d7d7510e53 
+2022-02-25 11:38:51.834 INFO  obtain request for searching a doctor by its speciality Gastroentrologist 
+2022-02-25 11:38:51.841 INFO  Searched for all the doctors based on speciality: Gastroentrologist 
+2022-02-25 11:38:51.841 INFO  Total documents found based on speciality are: 3 
+2022-02-25 11:38:57.371 INFO  obtain request for deleting a doctor 12 
+2022-02-25 11:38:57.380 INFO  one doctor deleted 
+2022-02-25 11:38:57.381 INFO  doctor deleted by its doctornumber 
+2022-02-25 11:38:59.428 INFO  obtain request for searching a doctor by its speciality Gastroentrologist 
+2022-02-25 11:38:59.436 INFO  Searched for all the doctors based on speciality: Gastroentrologist 
+2022-02-25 11:38:59.436 INFO  Total documents found based on speciality are: 2 
+2022-02-25 11:39:18.050 INFO  obtain request for adding a doctor Dr John 
+2022-02-25 11:39:18.073 INFO  New Doctor Got Inserted To The Database 
+2022-02-25 11:39:26.186 INFO  obtain request for searching a doctor by its speciality Gastroentrologist 
+2022-02-25 11:39:26.192 INFO  Searched for all the doctors based on speciality: Gastroentrologist 
+2022-02-25 11:39:26.192 INFO  Total documents found based on speciality are: 3 
+2022-02-25 11:40:19.854 INFO  obtain request for adding a doctor Dr Nethra 
+2022-02-25 11:40:19.862 INFO  New Doctor Got Inserted To The Database 
+2022-02-25 11:40:20.480 INFO  obtain request for adding a doctor Dr Nethra 
+2022-02-25 11:40:20.502 ERROR E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 166 }
+{"index":0,"code":11000,"keyPattern":{"doctorNumber":1},"keyValue":{"doctorNumber":166}}
+MongoServerError: E11000 duplicate key error collection: clinicdb.doctors index: doctorNumber_1 dup key: { doctorNumber: 166 }
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:474:9)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\JENITA NISHAL GAMA\Jenita\Capstone_Project\Reactjs_Project\Backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:335:10) 
+2022-02-25 11:40:26.379 INFO  obtain request for adding a doctor Dr Nethra 
+2022-02-25 11:40:26.384 INFO  New Doctor Got Inserted To The Database 
+2022-02-25 11:40:32.227 INFO  obtain request for searching a doctor by its speciality Gastroentrologist 
+2022-02-25 11:40:32.232 INFO  Searched for all the doctors based on speciality: Gastroentrologist 
+2022-02-25 11:40:32.232 INFO  Total documents found based on speciality are: 3 
+2022-02-25 11:40:33.472 INFO  obtain request for searching a doctor by its speciality Gastroentrologist 
+2022-02-25 11:40:33.478 INFO  Searched for all the doctors based on speciality: Gastroentrologist 
+2022-02-25 11:40:33.478 INFO  Total documents found based on speciality are: 3 
+2022-02-25 11:40:33.763 INFO  obtain request for searching a doctor by its speciality Gastroentrologist 
+2022-02-25 11:40:33.767 INFO  Searched for all the doctors based on speciality: Gastroentrologist 
+2022-02-25 11:40:33.767 INFO  Total documents found based on speciality are: 3 
+2022-02-25 11:40:35.611 INFO  obtain request for searching a doctor by its speciality Paediatrician 
+2022-02-25 11:40:35.617 INFO  Searched for all the doctors based on speciality: Paediatrician 
+2022-02-25 11:40:35.617 INFO  Total documents found based on speciality are: 5 

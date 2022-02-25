@@ -38,7 +38,7 @@ const SearchDoctor = (props) => {
 
                 <div style={{ border: "4px solid skyblue" }}>
                     <label style={{ margin: "20px" }}>SPECIALITY</label>
-                    <select name="speciality" value={localState.speciality} onChange={handleChange}>
+                    <select name="speciality" value={localState.value} onChange={handleChange}>
                         <option value={specialityOptions[0]}>Orthodontist</option>
                         <option value={specialityOptions[1]}>Opthalmologist</option>
                         <option value={specialityOptions[2]}>Paediatrician</option>
@@ -53,7 +53,7 @@ const SearchDoctor = (props) => {
                     <table style={{ width: "100%", border: "5px solid white" }}>
                         <tr style={{ backgroundColor: "lightblue", color: "white" }}>
                             
-                            <th>DOCTOR ID</th>
+                            
                             <th>DOCTOR NUMBER</th>
                             <th>NAME</th>
                             <th>QUALIFICATION</th>
@@ -62,7 +62,7 @@ const SearchDoctor = (props) => {
                             <th>DELETE ACTION</th>
                         </tr>
 
-                        {props.doctorData.searchResults ? props.doctorData.searchResults.map((item, key) => <tr><td> {item._id}</td><td> {item.doctorNumber}</td>
+                        {props.doctorData.searchResults ? props.doctorData.searchResults.map((item, key) => <tr><td> {item.doctorNumber}</td>
                         <td> {item.name}</td><td> {item.qualification}
                         </td><td>{item.speciality} </td><td><Link to={{pathname:"/doctors/edit/?doctorNumber="+item.doctorNumber+"&_id="+item._id+"&name="+item.name+"&qualification="+item.qualification+"&speciality="+item.speciality}}  >EDIT</Link></td><td><button onClick={(e) => deleteDoctor(e,item.doctorNumber)} >DELETE</button></td></tr>) : ""}
 

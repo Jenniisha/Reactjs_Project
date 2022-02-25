@@ -6,8 +6,10 @@ import { put, takeLatest, all } from "redux-saga/effects";
 function* searchDoctor(action) {
   const doctorSearchResult = yield fetch("http://localhost:8000/doctors/search/speciality/" + action.speciality)
     .then((response) =>
+
       response.json()
-    );
+    ).catch((err) => console.log(err));
+
   yield put({ type: "SEARCH_DOCTOR_SUCCESSFUL", doctorSearchResult: doctorSearchResult });
 }
 function* searchDoctoractionWatcher() {
@@ -21,9 +23,10 @@ function* searchDoctoractionWatcher() {
 function* deleteDoctor(action) {
 
   const json = yield fetch("http://localhost:8000/doctors/delete/" + action.doctorNumber)
-    .then((response) =>
-      response.json()
-    );
+  .then((response) =>
+
+  response.json()
+).catch((err) =>console.log(err));
   yield put({ type: "DELETE_DOCTOR_SUCCESSFUL", json: json });
 }
 function* deleteDoctoractionWatcher() {
@@ -32,7 +35,6 @@ function* deleteDoctoractionWatcher() {
 
 
 // ADD DOCTOR
-
 function* addDoctor(action) {
   var bodyContent = {
     doctorNumber: action.doctor.doctorNumber,
@@ -49,7 +51,11 @@ function* addDoctor(action) {
     headers: {
       "Content-type": "application/json;chartset=UTF-8",
     },
-  }).then((res) => res.json());
+  }).then((response) =>
+    response.json()
+  ).catch((err) => {
+    console.log("Add Failed");
+  });
   yield put({ type: "ADD_DOCTOR_SUCCESSFUL", serverMsg: serverResponse.msg, });
 
 }
@@ -65,15 +71,15 @@ function* editDoctor(action) {
   };
 
   var stringifiedBody = JSON.stringify(bodyContent);
-console.log("Inside edit doctor saga");
-  const serverResponse = yield fetch("http://localhost:8000/doctors/edit/"+action.doctor._id ,
-  {
-    method: "POST",
-    body: stringifiedBody,
-    headers: {
-      "Content-type": "application/json;chartset=UTF-8",
-    },
-  }).then((res) => res.json());
+  const serverResponse = yield fetch("http://localhost:8000/doctors/edit/" + action.doctor._id,
+    {
+      method: "POST",
+      body: stringifiedBody,
+      headers: {
+        "Content-type": "application/json;chartset=UTF-8",
+      },
+    }).then((res) => res.json())
+    .catch((err) =>console.log(err));
   yield put({ type: "EDIT_DOCTOR_SUCCESSFUL", serverMsg: serverResponse.msg, });
 
 }
@@ -86,11 +92,12 @@ function* editDoctoractionWatcher() {
 
 
 // for all the above sagas we need to create root saga
+// A root Saga aggregates multiple Sagas to a single entry point for the sagaMiddleware to run.
 export default function* rootSaga() {
   yield all([
     searchDoctoractionWatcher(),
     deleteDoctoractionWatcher(),
     addDoctoractionWatcher(),
     editDoctoractionWatcher()
-    ]);
+  ]);
 }

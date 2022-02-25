@@ -72,12 +72,13 @@ app.get('/doctors', (req, res) => {
 
 //Searching doctors based on speciality
 app.get('/doctors/search/speciality/:speciality', (req, res) => {
+  log.info(`obtain request for searching a doctor by its speciality ${req.params.speciality}`)
   const specialityParam = req.params.speciality;
   doctors.find({ "speciality": specialityParam }, function (err, docs) {
-    res.json(docs);
     log.info(`Searched for all the doctors based on speciality: ${req.params.speciality}`);
     log.info(`Total documents found based on speciality are: ${docs.length}`);
-    log.info(`Documents based on Speciality:${docs}`);
+    res.json(docs);
+   
   });
 });
 
@@ -129,17 +130,16 @@ app.get('/doctors/search/qualification/:qualification', (req, res) => {
 //POST
 //Adding the new Doctors details
 app.post('/doctors/add', (req, res) => {
-  doctors.create(req.body).then((ans) => {
-    log.info("New Doctor Got Inserted To The Database");
+  log.info(`obtain request for adding a doctor ${req.body.name}`)
+  doctors.create(req.body).then((doc) => {
     res.status(200).send({ msg: "New Doctor added successfully" });
-    res.json(docs);
+    log.info("New Doctor Got Inserted To The Database");
+
   }).catch((err) => {
     log.error(err);
     res.status(400).send({ msg: "Doctor with given id already exists!!" });
   });
 });
-
-
 
 //EDIT
 //Editing the doctors based on id

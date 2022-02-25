@@ -5,6 +5,7 @@ import '../Styles/Table.css';
 //ADD DOCTOR user story
 const AddDoctor = (props) => {
     const specialityOptions = ["Orthodontist", "Opthalmologist", "Paediatrician", "Gastroentrologist", "Cardiologist"];
+    
     const _id= new URLSearchParams(useLocation().search).get('_id');
     const doctorNumber = new URLSearchParams(useLocation().search).get('doctorNumber');
     const name = new URLSearchParams(useLocation().search).get('name');
